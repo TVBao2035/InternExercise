@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\myExercise_1\\myExercise_1\\myExercise_1.csproj": {}
+    "D:\\InternExercise\\myExercise_1\\myExercise_1\\myExercise_1.csproj": {}
   },
   "projects": {
-    "D:\\myExercise_1\\myExercise_1\\myExercise_1.csproj": {
+    "D:\\InternExercise\\myExercise_1\\myExercise_1\\myExercise_1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\myExercise_1\\myExercise_1\\myExercise_1.csproj",
+        "projectUniqueName": "D:\\InternExercise\\myExercise_1\\myExercise_1\\myExercise_1.csproj",
         "projectName": "myExercise_1",
-        "projectPath": "D:\\myExercise_1\\myExercise_1\\myExercise_1.csproj",
+        "projectPath": "D:\\InternExercise\\myExercise_1\\myExercise_1\\myExercise_1.csproj",
         "packagesPath": "C:\\Users\\bao.truong\\.nuget\\packages\\",
-        "outputPath": "D:\\myExercise_1\\myExercise_1\\obj\\",
+        "outputPath": "D:\\InternExercise\\myExercise_1\\myExercise_1\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

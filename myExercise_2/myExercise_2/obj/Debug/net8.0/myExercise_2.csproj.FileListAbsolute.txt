@@ -1,0 +1,15 @@
+D:\InternExercise\myExercise_2\myExercise_2\bin\Debug\net8.0\myExercise_2.exe
+D:\InternExercise\myExercise_2\myExercise_2\bin\Debug\net8.0\myExercise_2.deps.json
+D:\InternExercise\myExercise_2\myExercise_2\bin\Debug\net8.0\myExercise_2.runtimeconfig.json
+D:\InternExercise\myExercise_2\myExercise_2\bin\Debug\net8.0\myExercise_2.dll
+D:\InternExercise\myExercise_2\myExercise_2\bin\Debug\net8.0\myExercise_2.pdb
+D:\InternExercise\myExercise_2\myExercise_2\obj\Debug\net8.0\myExercise_2.GeneratedMSBuildEditorConfig.editorconfig
+D:\InternExercise\myExercise_2\myExercise_2\obj\Debug\net8.0\myExercise_2.AssemblyInfoInputs.cache
+D:\InternExercise\myExercise_2\myExercise_2\obj\Debug\net8.0\myExercise_2.AssemblyInfo.cs
+D:\InternExercise\myExercise_2\myExercise_2\obj\Debug\net8.0\myExercise_2.csproj.CoreCompileInputs.cache
+D:\InternExercise\myExercise_2\myExercise_2\obj\Debug\net8.0\myExercise_2.sourcelink.json
+D:\InternExercise\myExercise_2\myExercise_2\obj\Debug\net8.0\myExercise_2.dll
+D:\InternExercise\myExercise_2\myExercise_2\obj\Debug\net8.0\refint\myExercise_2.dll
+D:\InternExercise\myExercise_2\myExercise_2\obj\Debug\net8.0\myExercise_2.pdb
+D:\InternExercise\myExercise_2\myExercise_2\obj\Debug\net8.0\myExercise_2.genruntimeconfig.cache
+D:\InternExercise\myExercise_2\myExercise_2\obj\Debug\net8.0\ref\myExercise_2.dll
