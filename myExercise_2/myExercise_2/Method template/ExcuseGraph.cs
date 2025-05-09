@@ -53,8 +53,7 @@ namespace myExercise_2
                 }
                 Console.WriteLine();
             }
-
-             Excuse();
+            Excuse();
         }
     }
 }

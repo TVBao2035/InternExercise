@@ -1,9 +1,12 @@
 
 using Microsoft.Data.SqlClient;
 using Microsoft.EntityFrameworkCore;
+using myWebApi.AutoMapper;
 using myWebApi.Data;
 using myWebApi.Repository;
+using myWebApi.Repository.Interface;
 using myWebApi.Services;
+using myWebApi.Services.Interface;
 
 namespace myWebApi
 {
@@ -19,8 +22,18 @@ namespace myWebApi
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
+
             builder.Services.AddScoped<IUserRepository, UserRepository>();
-            builder.Services.AddScoped<UserService>();
+            builder.Services.AddScoped<IUserService, UserService>();
+            builder.Services.AddScoped<IProductRepository, ProductRepository>();
+            builder.Services.AddScoped<IProductService, ProductService>();
+            builder.Services.AddScoped<IOrderDetailRepository, OrderDetailRepository>();
+            builder.Services.AddScoped<IOrderDetailService, OrderDetailService>();
+            builder.Services.AddScoped<IOrderRepository, OrderRepository>();
+            builder.Services.AddScoped<IOrderService, OrderService>();
+
+            builder.Services.AddAutoMapper(typeof(AutoMapperConfig));
             builder.Services.AddDbContext<ApplicationDbContext>(options =>
             {
                 options.UseSqlServer(builder.Configuration.GetConnectionString("Server"));

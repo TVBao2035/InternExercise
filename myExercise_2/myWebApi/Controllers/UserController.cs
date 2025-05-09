@@ -2,6 +2,7 @@
 using Microsoft.AspNetCore.Mvc;
 using myWebApi.Enity;
 using myWebApi.Services;
+using myWebApi.Services.Interface;
 
 namespace myWebApi.Controllers
 {
@@ -9,9 +10,9 @@ namespace myWebApi.Controllers
     [ApiController]
     public class UserController : ControllerBase
     {
-        private UserService _userService;
+        private IUserService _userService;
 
-        public UserController(UserService userService) {
+        public UserController(IUserService userService) {
             _userService = userService;
         }
 

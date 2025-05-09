@@ -7,76 +7,200 @@
       "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\repository\\interface\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\repository\\interface\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\repository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\repository\\orderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\controllers\\orderdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\controllers\\orderdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\services\\orderdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\services\\orderdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\services\\interface\\iorderdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\services\\interface\\iorderdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\model\\request\\ordercreaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\model\\request\\ordercreaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\enity\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\enity\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\repository\\orderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\repository\\orderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\model\\request\\orderdetailcreaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\model\\request\\orderdetailcreaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\services\\interface\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\services\\interface\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\enity\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\enity\\order.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\services\\interface\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\services\\interface\\iproductservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\repository\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\repository\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\enity\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\enity\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\common\\helpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\common\\helpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\repository\\productrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\repository\\interface\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\repository\\interface\\iproductrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\InternExercise\\myExercise_2\\myWebApi\\Migrations\\20250508035152_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:myWebApi\\Migrations\\20250508035152_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\repository\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\repository\\interface\\iuserrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\enity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\enity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\repository\\interface\\iorderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\repository\\interface\\iorderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+      "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\model\\response\\appresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\model\\response\\appresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\config\\automapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\config\\automapperconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\mywebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\mywebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\model\\request\\productcreaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\model\\request\\productcreaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8E779D1-D65E-4206-B8AC-DE4065C1DD37}|myExercise_2\\myExercise_2.csproj|d:\\internexercise\\myexercise_2\\myexercise_2\\method template\\getlevelmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8E779D1-D65E-4206-B8AC-DE4065C1DD37}|myExercise_2\\myExercise_2.csproj|solutionrelative:myexercise_2\\method template\\getlevelmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8E779D1-D65E-4206-B8AC-DE4065C1DD37}|myExercise_2\\myExercise_2.csproj|d:\\internexercise\\myexercise_2\\myexercise_2\\myexercise_2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{E8E779D1-D65E-4206-B8AC-DE4065C1DD37}|myExercise_2\\myExercise_2.csproj|solutionrelative:myexercise_2\\myexercise_2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E8E779D1-D65E-4206-B8AC-DE4065C1DD37}|myExercise_2\\myExercise_2.csproj|d:\\internexercise\\myexercise_2\\myexercise_2\\graph.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
-      "RelativeMoniker": "D:0:0:{E8E779D1-D65E-4206-B8AC-DE4065C1DD37}|myExercise_2\\myExercise_2.csproj|solutionrelative:myexercise_2\\graph.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
+      "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\services\\interface\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\services\\interface\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E8E779D1-D65E-4206-B8AC-DE4065C1DD37}|myExercise_2\\myExercise_2.csproj|d:\\internexercise\\myexercise_2\\myexercise_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8E779D1-D65E-4206-B8AC-DE4065C1DD37}|myExercise_2\\myExercise_2.csproj|solutionrelative:myexercise_2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8E779D1-D65E-4206-B8AC-DE4065C1DD37}|myExercise_2\\myExercise_2.csproj|d:\\internexercise\\myexercise_2\\myexercise_2\\method template\\getlevelmax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8E779D1-D65E-4206-B8AC-DE4065C1DD37}|myExercise_2\\myExercise_2.csproj|solutionrelative:myexercise_2\\method template\\getlevelmax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E8E779D1-D65E-4206-B8AC-DE4065C1DD37}|myExercise_2\\myExercise_2.csproj|d:\\internexercise\\myexercise_2\\myexercise_2\\method template\\graph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8E779D1-D65E-4206-B8AC-DE4065C1DD37}|myExercise_2\\myExercise_2.csproj|solutionrelative:myexercise_2\\method template\\graph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8E779D1-D65E-4206-B8AC-DE4065C1DD37}|myExercise_2\\myExercise_2.csproj|d:\\internexercise\\myexercise_2\\myexercise_2\\method template\\exportonconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8E779D1-D65E-4206-B8AC-DE4065C1DD37}|myExercise_2\\myExercise_2.csproj|solutionrelative:myexercise_2\\method template\\exportonconsole.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8E779D1-D65E-4206-B8AC-DE4065C1DD37}|myExercise_2\\myExercise_2.csproj|d:\\internexercise\\myexercise_2\\myexercise_2\\method template\\exportdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8E779D1-D65E-4206-B8AC-DE4065C1DD37}|myExercise_2\\myExercise_2.csproj|solutionrelative:myexercise_2\\method template\\exportdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E8E779D1-D65E-4206-B8AC-DE4065C1DD37}|myExercise_2\\myExercise_2.csproj|d:\\internexercise\\myexercise_2\\myexercise_2\\method template\\excusegraph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E8E779D1-D65E-4206-B8AC-DE4065C1DD37}|myExercise_2\\myExercise_2.csproj|solutionrelative:myexercise_2\\method template\\excusegraph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E8E779D1-D65E-4206-B8AC-DE4065C1DD37}|myExercise_2\\myExercise_2.csproj|d:\\internexercise\\myexercise_2\\myexercise_2\\method template\\graph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E8E779D1-D65E-4206-B8AC-DE4065C1DD37}|myExercise_2\\myExercise_2.csproj|solutionrelative:myexercise_2\\method template\\graph.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E8E779D1-D65E-4206-B8AC-DE4065C1DD37}|myExercise_2\\myExercise_2.csproj|d:\\internexercise\\myexercise_2\\myexercise_2\\method template\\getlevelmax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8E779D1-D65E-4206-B8AC-DE4065C1DD37}|myExercise_2\\myExercise_2.csproj|solutionrelative:myexercise_2\\method template\\getlevelmax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8E779D1-D65E-4206-B8AC-DE4065C1DD37}|myExercise_2\\myExercise_2.csproj|d:\\internexercise\\myexercise_2\\myexercise_2\\method template\\getlevelmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E8E779D1-D65E-4206-B8AC-DE4065C1DD37}|myExercise_2\\myExercise_2.csproj|solutionrelative:myexercise_2\\method template\\getlevelmin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\mywebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\mywebapi.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8E779D1-D65E-4206-B8AC-DE4065C1DD37}|myExercise_2\\myExercise_2.csproj|d:\\internexercise\\myexercise_2\\myexercise_2\\myexercise_2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{E8E779D1-D65E-4206-B8AC-DE4065C1DD37}|myExercise_2\\myExercise_2.csproj|solutionrelative:myexercise_2\\myexercise_2.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\mywebapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\mywebapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\repository\\genericrepository\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\repository\\genericrepository\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\repository\\genericrepository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\repository\\genericrepository\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\model\\response\\userreponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\model\\response\\userreponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\enity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\enity\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\InternExercise\\myExercise_2\\myWebApi\\Migrations\\20250509062459_addNewTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:myWebApi\\Migrations\\20250509062459_addNewTable.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\common\\helpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\common\\helpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E8E779D1-D65E-4206-B8AC-DE4065C1DD37}|myExercise_2\\myExercise_2.csproj|d:\\internexercise\\myexercise_2\\myexercise_2\\graph.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{E8E779D1-D65E-4206-B8AC-DE4065C1DD37}|myExercise_2\\myExercise_2.csproj|solutionrelative:myexercise_2\\graph.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{E8E779D1-D65E-4206-B8AC-DE4065C1DD37}|myExercise_2\\myExercise_2.csproj|d:\\internexercise\\myexercise_2\\myexercise_2\\myexercise_2.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|",
       "RelativeMoniker": "D:0:0:{E8E779D1-D65E-4206-B8AC-DE4065C1DD37}|myExercise_2\\myExercise_2.csproj|solutionrelative:myexercise_2\\myexercise_2.csproj||{04B8AB82-A572-4FEF-95CE-5222444B6B64}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\migrations\\20250508035152_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\migrations\\20250508035152_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -86,36 +210,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 6,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "myWebApi\\Controllers\\UserController.cs",
+              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Controllers\\UserController.cs",
+              "RelativeToolTip": "myWebApi\\Controllers\\UserController.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBAAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T04:35:01.848Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
             {
               "$type": "Bookmark",
               "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "myWebApi\\Controllers\\UserController.cs",
-              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Controllers\\UserController.cs",
-              "RelativeToolTip": "myWebApi\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwB0AAAAyAAAAAAAAAA==",
+              "DocumentIndex": 7,
+              "Title": "OrderService.cs",
+              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Services\\OrderService.cs",
+              "RelativeDocumentMoniker": "myWebApi\\Services\\OrderService.cs",
+              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Services\\OrderService.cs",
+              "RelativeToolTip": "myWebApi\\Services\\OrderService.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwEAAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T04:35:01.848Z",
+              "WhenOpened": "2025-05-09T08:29:04.067Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Helpers.cs",
-              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Common\\Helpers.cs",
-              "RelativeDocumentMoniker": "myWebApi\\Common\\Helpers.cs",
-              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Common\\Helpers.cs",
-              "RelativeToolTip": "myWebApi\\Common\\Helpers.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAQwCoAAAAdAAAAAAAAAA==",
+              "DocumentIndex": 12,
+              "Title": "OrderDetail.cs",
+              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Enity\\OrderDetail.cs",
+              "RelativeDocumentMoniker": "myWebApi\\Enity\\OrderDetail.cs",
+              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Enity\\OrderDetail.cs",
+              "RelativeToolTip": "myWebApi\\Enity\\OrderDetail.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBEAAAAdAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T04:14:04.299Z",
+              "WhenOpened": "2025-05-09T05:19:03.22Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Program.cs",
+              "RelativeDocumentMoniker": "myWebApi\\Program.cs",
+              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Program.cs",
+              "RelativeToolTip": "myWebApi\\Program.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAQwCEAAABGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T03:19:31.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "myWebApi\\Controllers\\OrderController.cs",
+              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "myWebApi\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T08:47:18.055Z",
               "EditorCaption": ""
             },
             {
@@ -124,133 +288,354 @@
               "Title": "UserService.cs",
               "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "myWebApi\\Services\\UserService.cs",
-              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Services\\UserService.cs",
-              "RelativeToolTip": "myWebApi\\Services\\UserService.cs",
-              "ViewState": "AgIAACMAAAAAAAAAAAAwwD0AAAAAAAAAAAAAAA==",
+              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Services\\UserService.cs*",
+              "RelativeToolTip": "myWebApi\\Services\\UserService.cs*",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAQwBYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-08T04:07:51.332Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "OrderDetailService.cs",
+              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Services\\OrderDetailService.cs",
+              "RelativeDocumentMoniker": "myWebApi\\Services\\OrderDetailService.cs",
+              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Services\\OrderDetailService.cs",
+              "RelativeToolTip": "myWebApi\\Services\\OrderDetailService.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwBMAAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T08:32:05.085Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ProductService.cs",
+              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Services\\ProductService.cs",
+              "RelativeDocumentMoniker": "myWebApi\\Services\\ProductService.cs",
+              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Services\\ProductService.cs",
+              "RelativeToolTip": "myWebApi\\Services\\ProductService.cs",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAgwDMAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T06:46:51.535Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "OrderCreateRequest.cs",
+              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Model\\Request\\OrderCreateRequest.cs",
+              "RelativeDocumentMoniker": "myWebApi\\Model\\Request\\OrderCreateRequest.cs",
+              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Model\\Request\\OrderCreateRequest.cs",
+              "RelativeToolTip": "myWebApi\\Model\\Request\\OrderCreateRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T08:27:48.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
+              "Title": "OrderRepository.cs",
+              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Repository\\OrderRepository.cs",
+              "RelativeDocumentMoniker": "myWebApi\\Repository\\OrderRepository.cs",
+              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Repository\\OrderRepository.cs",
+              "RelativeToolTip": "myWebApi\\Repository\\OrderRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T08:22:13.54Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IOrderRepository.cs",
+              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Repository\\Interface\\IOrderRepository.cs",
+              "RelativeDocumentMoniker": "myWebApi\\Repository\\Interface\\IOrderRepository.cs",
+              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Repository\\Interface\\IOrderRepository.cs",
+              "RelativeToolTip": "myWebApi\\Repository\\Interface\\IOrderRepository.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T08:20:43.067Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OrderDetailController.cs",
+              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Controllers\\OrderDetailController.cs",
+              "RelativeDocumentMoniker": "myWebApi\\Controllers\\OrderDetailController.cs",
+              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Controllers\\OrderDetailController.cs",
+              "RelativeToolTip": "myWebApi\\Controllers\\OrderDetailController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T08:49:07.694Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "IOrderDetailService.cs",
+              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Services\\Interface\\IOrderDetailService.cs",
+              "RelativeDocumentMoniker": "myWebApi\\Services\\Interface\\IOrderDetailService.cs",
+              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Services\\Interface\\IOrderDetailService.cs",
+              "RelativeToolTip": "myWebApi\\Services\\Interface\\IOrderDetailService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T08:30:13.452Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "myWebApi\\Controllers\\ProductController.cs",
+              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "myWebApi\\Controllers\\ProductController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T06:28:55.615Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "OrderDetailRepository.cs",
+              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Repository\\OrderDetailRepository.cs",
+              "RelativeDocumentMoniker": "myWebApi\\Repository\\OrderDetailRepository.cs",
+              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Repository\\OrderDetailRepository.cs",
+              "RelativeToolTip": "myWebApi\\Repository\\OrderDetailRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAABfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T08:24:59.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "OrderDetailCreateRequest.cs",
+              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Model\\Request\\OrderDetailCreateRequest.cs",
+              "RelativeDocumentMoniker": "myWebApi\\Model\\Request\\OrderDetailCreateRequest.cs",
+              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Model\\Request\\OrderDetailCreateRequest.cs",
+              "RelativeToolTip": "myWebApi\\Model\\Request\\OrderDetailCreateRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T08:31:13.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IOrderService.cs",
+              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Services\\Interface\\IOrderService.cs",
+              "RelativeDocumentMoniker": "myWebApi\\Services\\Interface\\IOrderService.cs",
+              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Services\\Interface\\IOrderService.cs",
+              "RelativeToolTip": "myWebApi\\Services\\Interface\\IOrderService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAA1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T08:26:08.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "Order.cs",
+              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Enity\\Order.cs",
+              "RelativeDocumentMoniker": "myWebApi\\Enity\\Order.cs",
+              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Enity\\Order.cs",
+              "RelativeToolTip": "myWebApi\\Enity\\Order.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwAkAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T05:17:36.028Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "IUserRepository.cs",
-              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Repository\\IUserRepository.cs",
-              "RelativeDocumentMoniker": "myWebApi\\Repository\\IUserRepository.cs",
-              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Repository\\IUserRepository.cs",
-              "RelativeToolTip": "myWebApi\\Repository\\IUserRepository.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
+              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Repository\\Interface\\IUserRepository.cs",
+              "RelativeDocumentMoniker": "myWebApi\\Repository\\Interface\\IUserRepository.cs",
+              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Repository\\Interface\\IUserRepository.cs",
+              "RelativeToolTip": "myWebApi\\Repository\\Interface\\IUserRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-08T03:53:11.676Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 17,
+              "Title": "IProductService.cs",
+              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Services\\Interface\\IProductService.cs",
+              "RelativeDocumentMoniker": "myWebApi\\Services\\Interface\\IProductService.cs",
+              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Services\\Interface\\IProductService.cs",
+              "RelativeToolTip": "myWebApi\\Services\\Interface\\IProductService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T06:31:28.483Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "IProductRepository.cs",
+              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Repository\\Interface\\IProductRepository.cs",
+              "RelativeDocumentMoniker": "myWebApi\\Repository\\Interface\\IProductRepository.cs",
+              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Repository\\Interface\\IProductRepository.cs",
+              "RelativeToolTip": "myWebApi\\Repository\\Interface\\IProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T06:44:58.123Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Enity\\Product.cs",
+              "RelativeDocumentMoniker": "myWebApi\\Enity\\Product.cs",
+              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Enity\\Product.cs",
+              "RelativeToolTip": "myWebApi\\Enity\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T05:20:23.472Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Repository\\UserRepository.cs",
               "RelativeDocumentMoniker": "myWebApi\\Repository\\UserRepository.cs",
               "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Repository\\UserRepository.cs",
               "RelativeToolTip": "myWebApi\\Repository\\UserRepository.cs",
-              "ViewState": "AgIAAAcAAAAAAAAAAAAAABUAAAANAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-08T03:52:51.757Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "20250508035152_initial.cs",
-              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Migrations\\20250508035152_initial.cs",
-              "RelativeDocumentMoniker": "myWebApi\\Migrations\\20250508035152_initial.cs",
-              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Migrations\\20250508035152_initial.cs",
-              "RelativeToolTip": "myWebApi\\Migrations\\20250508035152_initial.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 23,
+              "Title": "IOrderDetailRepository.cs",
+              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Repository\\Interface\\IOrderDetailRepository.cs",
+              "RelativeDocumentMoniker": "myWebApi\\Repository\\Interface\\IOrderDetailRepository.cs",
+              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Repository\\Interface\\IOrderDetailRepository.cs",
+              "RelativeToolTip": "myWebApi\\Repository\\Interface\\IOrderDetailRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T03:51:52.782Z",
+              "WhenOpened": "2025-05-09T08:21:35.374Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\appsettings.json",
-              "RelativeDocumentMoniker": "myWebApi\\appsettings.json",
-              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\appsettings.json",
-              "RelativeToolTip": "myWebApi\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-08T03:48:04.385Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Enity\\User.cs",
-              "RelativeDocumentMoniker": "myWebApi\\Enity\\User.cs",
-              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Enity\\User.cs",
-              "RelativeToolTip": "myWebApi\\Enity\\User.cs",
-              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBEAAAAvAAAAAAAAAA==",
+              "DocumentIndex": 20,
+              "Title": "ProductRepository.cs",
+              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Repository\\ProductRepository.cs",
+              "RelativeDocumentMoniker": "myWebApi\\Repository\\ProductRepository.cs",
+              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Repository\\ProductRepository.cs",
+              "RelativeToolTip": "myWebApi\\Repository\\ProductRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T03:32:43.686Z",
+              "WhenOpened": "2025-05-09T06:45:44.553Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "myWebApi\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "myWebApi\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAuAAAAAAAAAA==",
+              "DocumentIndex": 24,
+              "Title": "AppResponse.cs",
+              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Model\\Response\\AppResponse.cs",
+              "RelativeDocumentMoniker": "myWebApi\\Model\\Response\\AppResponse.cs",
+              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Model\\Response\\AppResponse.cs",
+              "RelativeToolTip": "myWebApi\\Model\\Response\\AppResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T03:29:16.731Z",
+              "WhenOpened": "2025-05-09T06:49:56.243Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 28,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Program.cs",
-              "RelativeDocumentMoniker": "myWebApi\\Program.cs",
-              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Program.cs",
-              "RelativeToolTip": "myWebApi\\Program.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAowBYAAAA2AAAAAAAAAA==",
+              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myExercise_2\\Program.cs",
+              "RelativeDocumentMoniker": "myExercise_2\\Program.cs",
+              "ToolTip": "D:\\InternExercise\\myExercise_2\\myExercise_2\\Program.cs",
+              "RelativeToolTip": "myExercise_2\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T03:19:31.471Z",
+              "WhenOpened": "2025-05-08T02:02:01.086Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "myWebApi",
-              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\myWebApi.csproj",
-              "RelativeDocumentMoniker": "myWebApi\\myWebApi.csproj",
-              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\myWebApi.csproj",
-              "RelativeToolTip": "myWebApi\\myWebApi.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-08T03:21:21.796Z",
+              "DocumentIndex": 26,
+              "Title": "ProductCreateRequest.cs",
+              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Model\\Request\\ProductCreateRequest.cs",
+              "RelativeDocumentMoniker": "myWebApi\\Model\\Request\\ProductCreateRequest.cs",
+              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Model\\Request\\ProductCreateRequest.cs",
+              "RelativeToolTip": "myWebApi\\Model\\Request\\ProductCreateRequest.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAAAAcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T07:56:00.306Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "myExercise_2",
-              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myExercise_2\\myExercise_2.csproj",
-              "RelativeDocumentMoniker": "myExercise_2\\myExercise_2.csproj",
-              "ToolTip": "D:\\InternExercise\\myExercise_2\\myExercise_2\\myExercise_2.csproj",
-              "RelativeToolTip": "myExercise_2\\myExercise_2.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-08T03:02:54.53Z",
+              "DocumentIndex": 25,
+              "Title": "AutoMapperConfig.cs",
+              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Config\\AutoMapperConfig.cs",
+              "RelativeDocumentMoniker": "myWebApi\\Config\\AutoMapperConfig.cs",
+              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Config\\AutoMapperConfig.cs",
+              "RelativeToolTip": "myWebApi\\Config\\AutoMapperConfig.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAABEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T07:14:50.492Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 29,
+              "Title": "Graph.cs",
+              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myExercise_2\\Method template\\Graph.cs",
+              "RelativeDocumentMoniker": "myExercise_2\\Method template\\Graph.cs",
+              "ToolTip": "D:\\InternExercise\\myExercise_2\\myExercise_2\\Method template\\Graph.cs",
+              "RelativeToolTip": "myExercise_2\\Method template\\Graph.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T02:08:09.229Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "ExportOnConsole.cs",
+              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myExercise_2\\Method template\\ExportOnConsole.cs",
+              "RelativeDocumentMoniker": "myExercise_2\\Method template\\ExportOnConsole.cs",
+              "ToolTip": "D:\\InternExercise\\myExercise_2\\myExercise_2\\Method template\\ExportOnConsole.cs",
+              "RelativeToolTip": "myExercise_2\\Method template\\ExportOnConsole.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T07:41:02.954Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "ExcuseGraph.cs",
+              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myExercise_2\\Method template\\ExcuseGraph.cs",
+              "RelativeDocumentMoniker": "myExercise_2\\Method template\\ExcuseGraph.cs",
+              "ToolTip": "D:\\InternExercise\\myExercise_2\\myExercise_2\\Method template\\ExcuseGraph.cs",
+              "RelativeToolTip": "myExercise_2\\Method template\\ExcuseGraph.cs",
+              "ViewState": "AgIAAAkAAAAAAAAAAAAAACsAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T02:06:12.263Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
               "Title": "GetLevelMin.cs",
               "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myExercise_2\\Method template\\GetLevelMin.cs",
               "RelativeDocumentMoniker": "myExercise_2\\Method template\\GetLevelMin.cs",
@@ -263,7 +648,202 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 35,
+              "Title": "myWebApi",
+              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\myWebApi.csproj",
+              "RelativeDocumentMoniker": "myWebApi\\myWebApi.csproj",
+              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\myWebApi.csproj",
+              "RelativeToolTip": "myWebApi\\myWebApi.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-09T07:12:14.354Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "IUserService.cs",
+              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Services\\Interface\\IUserService.cs",
+              "RelativeDocumentMoniker": "myWebApi\\Services\\Interface\\IUserService.cs",
+              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Services\\Interface\\IUserService.cs",
+              "RelativeToolTip": "myWebApi\\Services\\Interface\\IUserService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T06:29:30.597Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "ExportData.cs",
+              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myExercise_2\\Method template\\ExportData.cs",
+              "RelativeDocumentMoniker": "myExercise_2\\Method template\\ExportData.cs",
+              "ToolTip": "D:\\InternExercise\\myExercise_2\\myExercise_2\\Method template\\ExportData.cs",
+              "RelativeToolTip": "myExercise_2\\Method template\\ExportData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T07:27:38.711Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "myExercise_2.csproj",
+              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myExercise_2\\myExercise_2.csproj",
+              "RelativeDocumentMoniker": "myExercise_2\\myExercise_2.csproj",
+              "ToolTip": "D:\\InternExercise\\myExercise_2\\myExercise_2\\myExercise_2.csproj",
+              "RelativeToolTip": "myExercise_2\\myExercise_2.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-05-08T03:02:54.53Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "GetLevelMax.cs",
+              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myExercise_2\\Method template\\GetLevelMax.cs",
+              "RelativeDocumentMoniker": "myExercise_2\\Method template\\GetLevelMax.cs",
+              "ToolTip": "D:\\InternExercise\\myExercise_2\\myExercise_2\\Method template\\GetLevelMax.cs",
+              "RelativeToolTip": "myExercise_2\\Method template\\GetLevelMax.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T02:16:34.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "myWebApi.http",
+              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\myWebApi.http",
+              "RelativeDocumentMoniker": "myWebApi\\myWebApi.http",
+              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\myWebApi.http",
+              "RelativeToolTip": "myWebApi\\myWebApi.http",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2025-05-09T07:09:06.648Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "IGenericRepository.cs",
+              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Repository\\GenericRepository\\IGenericRepository.cs",
+              "RelativeDocumentMoniker": "myWebApi\\Repository\\GenericRepository\\IGenericRepository.cs",
+              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Repository\\GenericRepository\\IGenericRepository.cs",
+              "RelativeToolTip": "myWebApi\\Repository\\GenericRepository\\IGenericRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAsAAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T06:32:52.546Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Repository\\GenericRepository\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "myWebApi\\Repository\\GenericRepository\\GenericRepository.cs",
+              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Repository\\GenericRepository\\GenericRepository.cs",
+              "RelativeToolTip": "myWebApi\\Repository\\GenericRepository\\GenericRepository.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwBkAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T06:33:09.456Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "UserReponse.cs",
+              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Model\\Response\\UserReponse.cs",
+              "RelativeDocumentMoniker": "myWebApi\\Model\\Response\\UserReponse.cs",
+              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Model\\Response\\UserReponse.cs",
+              "RelativeToolTip": "myWebApi\\Model\\Response\\UserReponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T06:53:55.861Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Enity\\User.cs",
+              "RelativeDocumentMoniker": "myWebApi\\Enity\\User.cs",
+              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Enity\\User.cs",
+              "RelativeToolTip": "myWebApi\\Enity\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T03:32:43.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "myWebApi\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "myWebApi\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T03:29:16.731Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "20250509062459_addNewTable.cs",
+              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Migrations\\20250509062459_addNewTable.cs",
+              "RelativeDocumentMoniker": "myWebApi\\Migrations\\20250509062459_addNewTable.cs",
+              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Migrations\\20250509062459_addNewTable.cs",
+              "RelativeToolTip": "myWebApi\\Migrations\\20250509062459_addNewTable.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAgwDMAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T06:24:59.369Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "Helpers.cs",
+              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Common\\Helpers.cs",
+              "RelativeDocumentMoniker": "myWebApi\\Common\\Helpers.cs",
+              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Common\\Helpers.cs",
+              "RelativeToolTip": "myWebApi\\Common\\Helpers.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T04:14:04.299Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\appsettings.json",
+              "RelativeDocumentMoniker": "myWebApi\\appsettings.json",
+              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\appsettings.json",
+              "RelativeToolTip": "myWebApi\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-08T03:48:04.385Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "20250508035152_initial.cs",
+              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Migrations\\20250508035152_initial.cs",
+              "RelativeDocumentMoniker": "myWebApi\\Migrations\\20250508035152_initial.cs",
+              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Migrations\\20250508035152_initial.cs",
+              "RelativeToolTip": "myWebApi\\Migrations\\20250508035152_initial.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T03:51:52.782Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
               "Title": "graph.txt",
               "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myExercise_2\\graph.txt",
               "RelativeDocumentMoniker": "myExercise_2\\graph.txt",
@@ -276,7 +856,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 48,
               "Title": "myExercise_2",
               "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myExercise_2\\myExercise_2.csproj",
               "RelativeDocumentMoniker": "myExercise_2\\myExercise_2.csproj",
@@ -284,58 +864,6 @@
               "RelativeToolTip": "myExercise_2\\myExercise_2.csproj",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-05-08T02:23:04.86Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 15,
-              "Title": "GetLevelMax.cs",
-              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myExercise_2\\Method template\\GetLevelMax.cs",
-              "RelativeDocumentMoniker": "myExercise_2\\Method template\\GetLevelMax.cs",
-              "ToolTip": "D:\\InternExercise\\myExercise_2\\myExercise_2\\Method template\\GetLevelMax.cs",
-              "RelativeToolTip": "myExercise_2\\Method template\\GetLevelMax.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAAtAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T02:16:34.908Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
-              "Title": "Graph.cs",
-              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myExercise_2\\Method template\\Graph.cs",
-              "RelativeDocumentMoniker": "myExercise_2\\Method template\\Graph.cs",
-              "ToolTip": "D:\\InternExercise\\myExercise_2\\myExercise_2\\Method template\\Graph.cs",
-              "RelativeToolTip": "myExercise_2\\Method template\\Graph.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T02:08:09.229Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "ExcuseGraph.cs",
-              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myExercise_2\\Method template\\ExcuseGraph.cs",
-              "RelativeDocumentMoniker": "myExercise_2\\Method template\\ExcuseGraph.cs",
-              "ToolTip": "D:\\InternExercise\\myExercise_2\\myExercise_2\\Method template\\ExcuseGraph.cs",
-              "RelativeToolTip": "myExercise_2\\Method template\\ExcuseGraph.cs",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAEwDgAAAAMAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T02:06:12.263Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myExercise_2\\Program.cs",
-              "RelativeDocumentMoniker": "myExercise_2\\Program.cs",
-              "ToolTip": "D:\\InternExercise\\myExercise_2\\myExercise_2\\Program.cs",
-              "RelativeToolTip": "myExercise_2\\Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAqAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T02:02:01.086Z",
               "EditorCaption": ""
             }
           ]

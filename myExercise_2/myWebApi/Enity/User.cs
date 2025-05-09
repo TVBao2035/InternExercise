@@ -10,6 +10,8 @@ namespace myWebApi.Enity
         public Guid Id { get; set; }
         [Required]
         public string Name { get; set; }
+        [MinLength(4)]
+        [MaxLength(8)]
         [Required]
         public string Password { get; set; }
         [Required]
