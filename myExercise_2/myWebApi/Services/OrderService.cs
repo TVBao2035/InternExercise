@@ -29,7 +29,6 @@ namespace myWebApi.Services
             {
                 try
                 {
-                
                     Order ord = new Order();
                     ord.Id = Guid.NewGuid();
                     ord.UserId = order.UserId;
