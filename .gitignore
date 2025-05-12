@@ -1,0 +1,13 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/demonOnionArchitecture
+/ECommerceWebsite/.vs
+/ECommerceWebsite/Domain/obj
+/ECommerceWebsite/ECommerceWebsite/obj
+/ECommerceWebsite/ECommerceWebsite.Domain/obj
+/ECommerceWebsite/ECommerceWebsite.Infrastructure/obj
+/ECommerceWebsite/ECommerceWebsite.Service/obj
+/ECommerceWebsite/Service/obj
+/myExercise_2/.vs/myExercise_2/FileContentIndex
