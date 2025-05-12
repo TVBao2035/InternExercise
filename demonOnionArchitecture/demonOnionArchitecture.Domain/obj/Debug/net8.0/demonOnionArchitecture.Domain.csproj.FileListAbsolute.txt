@@ -1,0 +1,12 @@
+D:\InternExercise\demonOnionArchitecture\demonOnionArchitecture.Domain\bin\Debug\net8.0\demonOnionArchitecture.Domain.deps.json
+D:\InternExercise\demonOnionArchitecture\demonOnionArchitecture.Domain\bin\Debug\net8.0\demonOnionArchitecture.Domain.dll
+D:\InternExercise\demonOnionArchitecture\demonOnionArchitecture.Domain\bin\Debug\net8.0\demonOnionArchitecture.Domain.pdb
+D:\InternExercise\demonOnionArchitecture\demonOnionArchitecture.Domain\obj\Debug\net8.0\demonOnionArchitecture.Domain.GeneratedMSBuildEditorConfig.editorconfig
+D:\InternExercise\demonOnionArchitecture\demonOnionArchitecture.Domain\obj\Debug\net8.0\demonOnionArchitecture.Domain.AssemblyInfoInputs.cache
+D:\InternExercise\demonOnionArchitecture\demonOnionArchitecture.Domain\obj\Debug\net8.0\demonOnionArchitecture.Domain.AssemblyInfo.cs
+D:\InternExercise\demonOnionArchitecture\demonOnionArchitecture.Domain\obj\Debug\net8.0\demonOnionArchitecture.Domain.csproj.CoreCompileInputs.cache
+D:\InternExercise\demonOnionArchitecture\demonOnionArchitecture.Domain\obj\Debug\net8.0\demonOnionArchitecture.Domain.sourcelink.json
+D:\InternExercise\demonOnionArchitecture\demonOnionArchitecture.Domain\obj\Debug\net8.0\demonOnionArchitecture.Domain.dll
+D:\InternExercise\demonOnionArchitecture\demonOnionArchitecture.Domain\obj\Debug\net8.0\refint\demonOnionArchitecture.Domain.dll
+D:\InternExercise\demonOnionArchitecture\demonOnionArchitecture.Domain\obj\Debug\net8.0\demonOnionArchitecture.Domain.pdb
+D:\InternExercise\demonOnionArchitecture\demonOnionArchitecture.Domain\obj\Debug\net8.0\ref\demonOnionArchitecture.Domain.dll

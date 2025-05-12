@@ -1,0 +1,6 @@
+@demonOnionArchitecture_HostAddress = http://localhost:5276
+
+GET {{demonOnionArchitecture_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
