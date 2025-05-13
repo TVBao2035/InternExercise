@@ -217,10 +217,6 @@
           "SelectedChildIndex": 8,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
               "DocumentIndex": 44,
               "Title": "UserController.cs",
@@ -232,6 +228,10 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-08T04:35:01.848Z",
               "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",
@@ -316,9 +316,9 @@
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Config\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "myWebApi\\Config\\DependencyInjection.cs",
-              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Config\\DependencyInjection.cs",
-              "RelativeToolTip": "myWebApi\\Config\\DependencyInjection.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAQAAAAAAAAAA==",
+              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Config\\DependencyInjection.cs*",
+              "RelativeToolTip": "myWebApi\\Config\\DependencyInjection.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-12T01:50:24.358Z",
               "EditorCaption": ""

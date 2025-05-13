@@ -1,0 +1,6 @@
+@demonNTierArchitecture_HostAddress = http://localhost:5068
+
+GET {{demonNTierArchitecture_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
