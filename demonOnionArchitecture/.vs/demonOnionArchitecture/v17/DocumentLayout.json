@@ -78,8 +78,12 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 4,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 4,
@@ -90,8 +94,7 @@
               "RelativeToolTip": "demonOnionArchitecture\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAEAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-13T06:21:59.99Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-13T06:21:59.99Z"
             },
             {
               "$type": "Document",
@@ -140,8 +143,7 @@
               "RelativeToolTip": "demonOnionArchitecture.Domain\\demonOnionArchitecture.Domain.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-12T04:39:59.745Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T04:39:59.745Z"
             },
             {
               "$type": "Document",
@@ -153,8 +155,7 @@
               "RelativeToolTip": "demonOnionArchitecture.Infrastrue\\demonOnionArchitecture.Data.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-12T08:35:36.822Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T08:35:36.822Z"
             },
             {
               "$type": "Document",
@@ -166,8 +167,7 @@
               "RelativeToolTip": "demonOnionArchitecture\\demonOnionArchitecture.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-12T08:17:36.592Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T08:17:36.592Z"
             },
             {
               "$type": "Document",
@@ -180,10 +180,6 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-13T06:17:55.266Z"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             },
             {
               "$type": "Document",

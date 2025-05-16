@@ -9,8 +9,10 @@ namespace OrderService.Models.Enities
         [Key]
         public Guid Id  { get; set; }
         [Required]
+        [ForeignKey("User")]
         public Guid UserId { get; set; }
         [Required]
+        [ForeignKey("Product")]
         public Guid ProductId { get; set; }
     }
 }
