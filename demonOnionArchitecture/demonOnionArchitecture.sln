@@ -13,6 +13,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demonOnionArchitecture.Data
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demonOnionArchitecture.Infrastructure", "demonOnionArchitecture.Data\demonOnionArchitecture.Infrastructure.csproj", "{B281E653-D97D-4142-89D0-9022D0267F7D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "demonOnionArchitecture.Common", "demonOnionArchitecture.Common\demonOnionArchitecture.Common.csproj", "{CBF171B5-A0A8-403B-B51E-2DF0DABFBD3E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -39,6 +41,10 @@ Global
 		{B281E653-D97D-4142-89D0-9022D0267F7D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B281E653-D97D-4142-89D0-9022D0267F7D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B281E653-D97D-4142-89D0-9022D0267F7D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CBF171B5-A0A8-403B-B51E-2DF0DABFBD3E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CBF171B5-A0A8-403B-B51E-2DF0DABFBD3E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CBF171B5-A0A8-403B-B51E-2DF0DABFBD3E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CBF171B5-A0A8-403B-B51E-2DF0DABFBD3E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,5 +1,4 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using ProductService.Models;
 using ProductService.Models.DTOs;
 using ProductService.Models.Enities;
 using ProductService.Repositories.Interfaces;

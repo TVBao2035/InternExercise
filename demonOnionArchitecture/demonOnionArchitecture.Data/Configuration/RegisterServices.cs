@@ -4,6 +4,8 @@ using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
+using demonOnionArchitecture.Common.Interfaces;
+using demonOnionArchitecture.Infrastructure.Logging;
 using demonOnionArchitecture.Infrastrue.Context;
 using demonOnionArchitecture.Infrastrue.Repository.Implements;
 using demonOnionArchitecture.Infrastrue.Repository.Interfaces;
@@ -30,6 +32,7 @@ namespace demonOnionArchitecture.Infrastrue.Configuration
             services.AddScoped(typeof(IGenericRepository<>), typeof(GenericRepository<>));
             services.AddScoped<IUserRepository, UserRepository>();
             services.AddScoped<IUserService, UserService>();
+            services.AddScoped(typeof(IAppLogger<>), typeof(NLogger<>));
         }
     }
 }

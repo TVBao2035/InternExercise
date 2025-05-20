@@ -4,8 +4,7 @@ using System.Linq;
 using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
-
-namespace ProductService.Models
+namespace UserService.Models.DTOs
 {
     public  class AppReponse<T>
     {

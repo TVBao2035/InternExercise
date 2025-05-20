@@ -11,6 +11,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\demonOnionArchitecture.Common\demonOnionArchitecture.Common.csproj" />
     <ProjectReference Include="..\demonOnionArchitecture.Domain\demonOnionArchitecture.Domain.csproj" />
     <ProjectReference Include="..\demonOnionArchitecture.Infrastrue\demonOnionArchitecture.Data.csproj" />
   </ItemGroup>

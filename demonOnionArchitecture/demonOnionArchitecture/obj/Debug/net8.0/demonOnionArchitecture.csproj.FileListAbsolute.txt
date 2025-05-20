@@ -149,3 +149,9 @@ D:\InternExercise\demonOnionArchitecture\demonOnionArchitecture\bin\Debug\net8.0
 D:\InternExercise\demonOnionArchitecture\demonOnionArchitecture\bin\Debug\net8.0\demonOnionArchitecture.Infrastructure.dll
 D:\InternExercise\demonOnionArchitecture\demonOnionArchitecture\bin\Debug\net8.0\demonOnionArchitecture.Infrastructure.pdb
 D:\InternExercise\demonOnionArchitecture\demonOnionArchitecture\bin\Debug\net8.0\demonOnionArchitecture.Data.pdb
+D:\InternExercise\demonOnionArchitecture\demonOnionArchitecture\bin\Debug\net8.0\NLog.config
+D:\InternExercise\demonOnionArchitecture\demonOnionArchitecture\bin\Debug\net8.0\NLog.dll
+D:\InternExercise\demonOnionArchitecture\demonOnionArchitecture\bin\Debug\net8.0\NLog.Extensions.Logging.dll
+D:\InternExercise\demonOnionArchitecture\demonOnionArchitecture\bin\Debug\net8.0\NLog.Web.AspNetCore.dll
+D:\InternExercise\demonOnionArchitecture\demonOnionArchitecture\bin\Debug\net8.0\demonOnionArchitecture.Common.dll
+D:\InternExercise\demonOnionArchitecture\demonOnionArchitecture\bin\Debug\net8.0\demonOnionArchitecture.Common.pdb

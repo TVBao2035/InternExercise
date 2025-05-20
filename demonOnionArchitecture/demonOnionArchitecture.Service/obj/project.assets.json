@@ -991,6 +991,16 @@
           }
         }
       },
+      "demonOnionArchitecture.Common/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/demonOnionArchitecture.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/demonOnionArchitecture.Common.dll": {}
+        }
+      },
       "demonOnionArchitecture.Data/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
@@ -2737,6 +2747,11 @@
         "useSharedDesignerContext.txt"
       ]
     },
+    "demonOnionArchitecture.Common/1.0.0": {
+      "type": "project",
+      "path": "../demonOnionArchitecture.Common/demonOnionArchitecture.Common.csproj",
+      "msbuildProject": "../demonOnionArchitecture.Common/demonOnionArchitecture.Common.csproj"
+    },
     "demonOnionArchitecture.Data/1.0.0": {
       "type": "project",
       "path": "../demonOnionArchitecture.Infrastrue/demonOnionArchitecture.Data.csproj",
@@ -2751,6 +2766,7 @@
   "projectFileDependencyGroups": {
     "net8.0": [
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
+      "demonOnionArchitecture.Common >= 1.0.0",
       "demonOnionArchitecture.Data >= 1.0.0",
       "demonOnionArchitecture.Domain >= 1.0.0"
     ]
@@ -2787,6 +2803,9 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
+            "D:\\InternExercise\\demonOnionArchitecture\\demonOnionArchitecture.Common\\demonOnionArchitecture.Common.csproj": {
+              "projectPath": "D:\\InternExercise\\demonOnionArchitecture\\demonOnionArchitecture.Common\\demonOnionArchitecture.Common.csproj"
+            },
             "D:\\InternExercise\\demonOnionArchitecture\\demonOnionArchitecture.Domain\\demonOnionArchitecture.Domain.csproj": {
               "projectPath": "D:\\InternExercise\\demonOnionArchitecture\\demonOnionArchitecture.Domain\\demonOnionArchitecture.Domain.csproj"
             },

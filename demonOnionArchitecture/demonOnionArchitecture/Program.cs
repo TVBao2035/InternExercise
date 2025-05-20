@@ -2,23 +2,31 @@
 using demonOnionArchitecture.Service.Mapper;
 using demonOnionArchitecture.Infrastrue.Configuration;
 using Microsoft.EntityFrameworkCore.Internal;
+using NLog.Extensions.Logging;
+using NLog.Web;
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.AspNetCore;
+using NLog;
 namespace demonOnionArchitecture
 {
     public class Program
     {
         public static void Main(string[] args)
         {
+            var logger = LogManager.Setup()
+                       .LoadConfigurationFromFile("NLog.config")
+                       .GetCurrentClassLogger();
             var builder = WebApplication.CreateBuilder(args);
-
-            // Add services to the container.
-
+            logger.Info("App starting...");
             builder.Services.AddControllers();
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
-            builder.Services.AddSwaggerGen();
             builder.Services.AddAutoMapper(typeof(AutoMapperConfig));
+            builder.Logging.SetMinimumLevel(Microsoft.Extensions.Logging.LogLevel.Information);
+            builder.Logging.ClearProviders();
+            builder.Host.UseNLog();
             builder.Services.RegisterDbContext(builder.Configuration);
             builder.Services.RegisterDI();
+            builder.Services.AddSwaggerGen();
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.

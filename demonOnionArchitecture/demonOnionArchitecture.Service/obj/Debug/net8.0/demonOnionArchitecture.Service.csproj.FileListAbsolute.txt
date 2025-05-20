@@ -16,3 +16,5 @@ D:\InternExercise\demonOnionArchitecture\demonOnionArchitecture.Service\obj\Debu
 D:\InternExercise\demonOnionArchitecture\demonOnionArchitecture.Service\obj\Debug\net8.0\ref\demonOnionArchitecture.Service.dll
 D:\InternExercise\demonOnionArchitecture\demonOnionArchitecture.Service\bin\Debug\net8.0\demonOnionArchitecture.Data.dll
 D:\InternExercise\demonOnionArchitecture\demonOnionArchitecture.Service\bin\Debug\net8.0\demonOnionArchitecture.Data.pdb
+D:\InternExercise\demonOnionArchitecture\demonOnionArchitecture.Service\bin\Debug\net8.0\demonOnionArchitecture.Common.dll
+D:\InternExercise\demonOnionArchitecture\demonOnionArchitecture.Service\bin\Debug\net8.0\demonOnionArchitecture.Common.pdb

@@ -8,9 +8,11 @@
 
   <ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.0" />
+    <PackageReference Include="NLog" Version="5.4.0" />
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\demonOnionArchitecture.Common\demonOnionArchitecture.Common.csproj" />
     <ProjectReference Include="..\demonOnionArchitecture.Infrastrue\demonOnionArchitecture.Data.csproj" />
     <ProjectReference Include="..\demonOnionArchitecture.Service\demonOnionArchitecture.Service.csproj" />
   </ItemGroup>

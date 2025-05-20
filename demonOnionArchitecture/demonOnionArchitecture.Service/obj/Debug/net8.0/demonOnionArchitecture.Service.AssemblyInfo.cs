@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("demonOnionArchitecture.Service")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+486ed0b15241ef2d7b10bdbd0b47811982aff2e4")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dbd2585d7ce282d6724ba9632a09a02ffb31b70a")]
 [assembly: System.Reflection.AssemblyProductAttribute("demonOnionArchitecture.Service")]
 [assembly: System.Reflection.AssemblyTitleAttribute("demonOnionArchitecture.Service")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

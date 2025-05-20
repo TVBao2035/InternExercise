@@ -1,5 +1,4 @@
-﻿using ProductService.Models;
-using ProductService.Models.DTOs;
+﻿using ProductService.Models.DTOs;
 using ProductService.Models.Enities;
 
 namespace ProductService.Services.Interfaces

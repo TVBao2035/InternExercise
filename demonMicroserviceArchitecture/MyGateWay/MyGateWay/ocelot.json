@@ -10,7 +10,11 @@
                 }
             ],
             "UpstreamPathTemplate": "/Order",
-            "UpstreamHttpMethod": [ "GET", "POST" ]
+            "UpstreamHttpMethod": [ "GET", "POST" ],
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Bearer",
+                "AllowedScopes": []
+            }
         },
         {
             "DownstreamPathTemplate": "/api/User",
@@ -35,6 +39,42 @@
             ],
             "UpstreamPathTemplate": "/User/{Id}",
             "UpstreamHttpMethod": [ "GET", "DELETE" ]
+        },
+        {
+            "DownstreamPathTemplate": "/api/User/Search",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5114
+                }
+            ],
+            "UpstreamPathTemplate": "/User/Search",
+            "UpstreamHttpMethod": [ "POST" ]
+        },
+        {
+            "DownstreamPathTemplate": "/api/User/Refresh",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5114
+                }
+            ],
+            "UpstreamPathTemplate": "/User/Refresh",
+            "UpstreamHttpMethod": [ "POST" ]
+        },
+        {
+            "DownstreamPathTemplate": "/api/User/SignIn",
+            "DownstreamScheme": "http",
+            "DownstreamHostAndPorts": [
+                {
+                    "Host": "localhost",
+                    "Port": 5114
+                }
+            ],
+            "UpstreamPathTemplate": "/User/SignIn",
+            "UpstreamHttpMethod": [ "POST" ]
         },
         {
             "DownstreamPathTemplate": "/api/Product",

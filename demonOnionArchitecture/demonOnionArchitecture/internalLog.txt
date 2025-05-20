@@ -1,0 +1,5 @@
+2025-05-19 13:27:13.6483 Info Registered target NLog.Targets.FileTarget(Name=alldata)
+2025-05-19 13:27:13.6684 Info Registered target NLog.Targets.FileTarget(Name=otherFile-web)
+2025-05-19 13:27:13.6780 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.4.0.3182. Product version: 5.4.0+4d45d445601312040107cbe2ac00e56c4bf4a60b. GlobalAssemblyCache: False
+2025-05-19 13:27:13.6922 Info Validating config: TargetNames=alldata, otherFile-web, ConfigItems=45, FilePath=D:\InternExercise\demonOnionArchitecture\demonOnionArchitecture\bin\Debug\net8.0\NLog.config
+2025-05-19 13:27:13.7716 Info Configuration initialized.

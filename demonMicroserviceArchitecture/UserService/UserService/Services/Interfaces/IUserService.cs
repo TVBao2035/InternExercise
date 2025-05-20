@@ -1,6 +1,7 @@
-﻿using UserService.Models;
-using UserService.Models.DTOs;
+﻿using UserService.Models.DTOs;
 using UserService.Models.Enities;
+using UserService.Models.Requests;
+using UserService.Models.Responses;
 
 namespace UserService.Services.Interfaces
 {
@@ -11,5 +12,8 @@ namespace UserService.Services.Interfaces
         Task<AppReponse<UserDTO>> Delete(Guid Id);
         Task<AppReponse<List<User>>> GetAll();
         Task<AppReponse<User>> GetById(Guid Id);
+        Task<AppReponse<SearchResponse<UserDTO>>> Search(SearchRequest request);
+        Task<AppReponse<LoginResponse>> Login(LoginRequest request);
+        Task<AppReponse<LoginResponse>> ValidateRefreshToken(string refreshToken);
     }
 }

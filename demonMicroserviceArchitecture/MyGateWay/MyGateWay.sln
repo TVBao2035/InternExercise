@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.13.35931.197 d17.13
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GateWay", "GateWay\GateWay.csproj", "{616ABC27-B92C-4F45-93BB-9B003AA05554}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyGateWay", "MyGateWay\MyGateWay.csproj", "{50E70E11-18AB-4814-A115-5EE264864314}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{616ABC27-B92C-4F45-93BB-9B003AA05554}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{616ABC27-B92C-4F45-93BB-9B003AA05554}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{616ABC27-B92C-4F45-93BB-9B003AA05554}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{616ABC27-B92C-4F45-93BB-9B003AA05554}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50E70E11-18AB-4814-A115-5EE264864314}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50E70E11-18AB-4814-A115-5EE264864314}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50E70E11-18AB-4814-A115-5EE264864314}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50E70E11-18AB-4814-A115-5EE264864314}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {CBA8BB5C-CE45-484B-95C4-16F591AB8E44}
+		SolutionGuid = {17395B6C-464A-43EE-974B-03955D454A15}
 	EndGlobalSection
 EndGlobal

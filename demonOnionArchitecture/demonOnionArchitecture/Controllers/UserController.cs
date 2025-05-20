@@ -3,6 +3,7 @@ using demonOnionArchitecture.Service.Services.Interfaces;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 
+
 namespace demonOnionArchitecture.Controllers
 {
     [Route("api/[controller]")]
@@ -10,10 +11,12 @@ namespace demonOnionArchitecture.Controllers
     public class UserController : ControllerBase
     {
         private IUserService _userService;
+        private ILogger<UserController> _logger;
 
-        public UserController(IUserService userService )
+        public UserController(IUserService userService, ILogger<UserController> logger )
         {
             _userService = userService;
+            _logger = logger;
         }
 
         [HttpPut]
@@ -31,6 +34,7 @@ namespace demonOnionArchitecture.Controllers
         [HttpGet]
         public async Task<IActionResult> GetAll()
         {
+            _logger.LogInformation("testing nlog");
             var  data = await _userService.GetAll();
             return Ok(data);
         }

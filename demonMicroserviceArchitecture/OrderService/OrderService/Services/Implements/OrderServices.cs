@@ -2,9 +2,9 @@
 using Azure;
 using Azure.Core;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.Identity.Client;
 using Microsoft.IdentityModel.Tokens;
 using OrderService.Common;
-using OrderService.Models;
 using OrderService.Models.DTOs;
 using OrderService.Models.Enities;
 using OrderService.Repositories.Implements;
@@ -20,6 +20,7 @@ namespace OrderService.Services.Implements
         public OrderServices(IOrderRepository orderRepository) {
             _orderRepository = orderRepository;
         }
+
         public async Task<AppReponse<OrderDTO>> Create(OrderDTO request)
         {
             var result = new AppReponse<OrderDTO>();

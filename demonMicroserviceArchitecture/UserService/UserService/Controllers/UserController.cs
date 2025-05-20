@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.Identity.Client;
 using UserService.Models.DTOs;
 using UserService.Models.Enities;
+using UserService.Models.Requests;
 using UserService.Services.Implements;
 using UserService.Services.Interfaces;
 
@@ -17,6 +18,31 @@ namespace UserService.Controllers
         public UserController(IUserService userService)
         {
             _userService = userService;
+        }
+
+
+        [HttpPost]
+        [Route("Refresh")]
+        public async Task<IActionResult> Refresh([FromBody] string refreshToken)
+        {
+            var data = await _userService.ValidateRefreshToken(refreshToken);
+            return Ok(data);
+        }
+
+        [HttpPost]
+        [Route("SignIn")]
+        public async Task<IActionResult> Login([FromBody] LoginRequest request)
+        {
+            var data = await _userService.Login(request);
+            return Ok(data);
+        }
+
+        [HttpPost]
+        [Route("Search")]
+        public async Task<IActionResult> Search([FromBody] SearchRequest request)
+        {
+            var data = await _userService.Search(request);
+            return Ok(data);
         }
         [HttpDelete("{Id}")]
         public async Task<IActionResult> Delete(Guid Id)
@@ -37,14 +63,12 @@ namespace UserService.Controllers
             return Ok(data);
         }
 
-
         [HttpPost]
         public async Task<IActionResult> Create([FromBody] UserDTO request)
         {
             var data = await _userService.Create(request);
             return Ok(data);
         }
-
 
         [HttpPut]
         public async Task<IActionResult> Update([FromBody] User request)

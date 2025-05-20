@@ -1,5 +1,4 @@
 ﻿using OrderService.Models.Enities;
-using OrderService.Models;
 using OrderService.Models.DTOs;
 
 namespace OrderService.Services.Interfaces

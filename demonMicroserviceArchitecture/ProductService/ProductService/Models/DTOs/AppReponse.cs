@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OrderService.Models
+namespace ProductService.Models.DTOs
 {
     public  class AppReponse<T>
     {

@@ -10,5 +10,6 @@ namespace UserService.Data
         }
 
         DbSet<User> User { get; set; }
+        DbSet<Token> Token { get; set; }
     }
 }

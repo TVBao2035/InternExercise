@@ -7,8 +7,32 @@
       "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\services\\orderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\model\\request\\orderdetailcreaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\model\\request\\orderdetailcreaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\model\\request\\ordercreaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\model\\request\\ordercreaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\services\\orderdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\services\\orderdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\enity\\orderdetail.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -29,14 +53,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\services\\productservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -82,10 +98,6 @@
       "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\controllers\\orderdetailcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\repository\\interface\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\repository\\interface\\iorderrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -98,16 +110,8 @@
       "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\services\\interface\\iorderdetailservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\model\\request\\ordercreaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\model\\request\\ordercreaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\repository\\orderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\repository\\orderdetailrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\model\\request\\orderdetailcreaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\model\\request\\orderdetailcreaterequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\services\\interface\\iorderservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -190,10 +194,6 @@
       "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\model\\response\\userreponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|d:\\internexercise\\myexercise_2\\mywebapi\\common\\helpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4A8C7B0B-2665-476A-B06F-B701763C240E}|myWebApi\\myWebApi.csproj|solutionrelative:mywebapi\\common\\helpers.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -217,11 +217,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 47,
+              "DocumentIndex": 4,
               "Title": "UserController.cs",
               "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "myWebApi\\Controllers\\UserController.cs",
@@ -230,24 +230,12 @@
               "ViewState": "AgIAAAsAAAAAAAAAAAAQwBAAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-08T04:35:01.848Z",
-              "IsPinned": true
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "myWebApi\\Data\\ApplicationDbContext.cs",
-              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "myWebApi\\Data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAlAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T03:29:16.731Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 5,
               "Title": "UserService.cs",
               "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Services\\UserService.cs",
               "RelativeDocumentMoniker": "myWebApi\\Services\\UserService.cs",
@@ -266,14 +254,14 @@
               "RelativeDocumentMoniker": "myWebApi\\Services\\OrderService.cs",
               "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Services\\OrderService.cs",
               "RelativeToolTip": "myWebApi\\Services\\OrderService.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAAsAAAAAAAAAA==",
+              "ViewState": "AgIAADsAAAAAAAAAAAAwwB4AAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-09T08:29:04.067Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 6,
               "Title": "OrderDetailService.cs",
               "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Services\\OrderDetailService.cs",
               "RelativeDocumentMoniker": "myWebApi\\Services\\OrderDetailService.cs",
@@ -286,46 +274,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "20250509062459_addNewTable.cs",
-              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Migrations\\20250509062459_addNewTable.cs",
-              "RelativeDocumentMoniker": "myWebApi\\Migrations\\20250509062459_addNewTable.cs",
-              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Migrations\\20250509062459_addNewTable.cs",
-              "RelativeToolTip": "myWebApi\\Migrations\\20250509062459_addNewTable.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T06:24:59.369Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "User.cs",
-              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Enity\\User.cs",
-              "RelativeDocumentMoniker": "myWebApi\\Enity\\User.cs",
-              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Enity\\User.cs",
-              "RelativeToolTip": "myWebApi\\Enity\\User.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAsAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T03:32:43.686Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Product.cs",
-              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Enity\\Product.cs",
-              "RelativeDocumentMoniker": "myWebApi\\Enity\\Product.cs",
-              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Enity\\Product.cs",
-              "RelativeToolTip": "myWebApi\\Enity\\Product.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T05:20:23.472Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 8,
               "Title": "OrderDetail.cs",
               "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Enity\\OrderDetail.cs",
               "RelativeDocumentMoniker": "myWebApi\\Enity\\OrderDetail.cs",
@@ -333,12 +282,11 @@
               "RelativeToolTip": "myWebApi\\Enity\\OrderDetail.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T05:19:03.22Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-09T05:19:03.22Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "ProductService.cs",
               "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Services\\ProductService.cs",
               "RelativeDocumentMoniker": "myWebApi\\Services\\ProductService.cs",
@@ -351,7 +299,98 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "OrderController.cs",
+              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Controllers\\OrderController.cs",
+              "RelativeDocumentMoniker": "myWebApi\\Controllers\\OrderController.cs",
+              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Controllers\\OrderController.cs",
+              "RelativeToolTip": "myWebApi\\Controllers\\OrderController.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABkAAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T08:47:18.055Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "OrderCreateRequest.cs",
+              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Model\\Request\\OrderCreateRequest.cs",
+              "RelativeDocumentMoniker": "myWebApi\\Model\\Request\\OrderCreateRequest.cs",
+              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Model\\Request\\OrderCreateRequest.cs",
+              "RelativeToolTip": "myWebApi\\Model\\Request\\OrderCreateRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T08:27:48.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "OrderDetailCreateRequest.cs",
+              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Model\\Request\\OrderDetailCreateRequest.cs",
+              "RelativeDocumentMoniker": "myWebApi\\Model\\Request\\OrderDetailCreateRequest.cs",
+              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Model\\Request\\OrderDetailCreateRequest.cs",
+              "RelativeToolTip": "myWebApi\\Model\\Request\\OrderDetailCreateRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T08:31:13.92Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 9,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Enity\\Product.cs",
+              "RelativeDocumentMoniker": "myWebApi\\Enity\\Product.cs",
+              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Enity\\Product.cs",
+              "RelativeToolTip": "myWebApi\\Enity\\Product.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T05:20:23.472Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "User.cs",
+              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Enity\\User.cs",
+              "RelativeDocumentMoniker": "myWebApi\\Enity\\User.cs",
+              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Enity\\User.cs",
+              "RelativeToolTip": "myWebApi\\Enity\\User.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T03:32:43.686Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "20250509062459_addNewTable.cs",
+              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Migrations\\20250509062459_addNewTable.cs",
+              "RelativeDocumentMoniker": "myWebApi\\Migrations\\20250509062459_addNewTable.cs",
+              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Migrations\\20250509062459_addNewTable.cs",
+              "RelativeToolTip": "myWebApi\\Migrations\\20250509062459_addNewTable.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAsAAABFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-09T06:24:59.369Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "myWebApi\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "myWebApi\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-08T03:29:16.731Z"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Program.cs",
               "RelativeDocumentMoniker": "myWebApi\\Program.cs",
@@ -359,12 +398,11 @@
               "RelativeToolTip": "myWebApi\\Program.cs",
               "ViewState": "AgIAABMAAAAAAAAAAAAkwBwAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-08T03:19:31.471Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-08T03:19:31.471Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 14,
               "Title": "Domain.csproj",
               "DocumentMoniker": "D:\\InternExercise\\ECommerceWebsite\\Domain\\Domain.csproj",
               "RelativeDocumentMoniker": "..\\ECommerceWebsite\\Domain\\Domain.csproj",
@@ -372,12 +410,11 @@
               "RelativeToolTip": "..\\ECommerceWebsite\\Domain\\Domain.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-05-12T09:37:23.744Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T09:37:23.744Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\appsettings.json",
               "RelativeDocumentMoniker": "myWebApi\\appsettings.json",
@@ -389,7 +426,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "AutoMapperConfig.cs",
               "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Config\\AutoMapperConfig.cs",
               "RelativeDocumentMoniker": "myWebApi\\Config\\AutoMapperConfig.cs",
@@ -401,7 +438,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "Order.cs",
               "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Enity\\Order.cs",
               "RelativeDocumentMoniker": "myWebApi\\Enity\\Order.cs",
@@ -412,12 +449,8 @@
               "WhenOpened": "2025-05-09T05:17:36.028Z"
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 15,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Config\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "myWebApi\\Config\\DependencyInjection.cs",
@@ -429,7 +462,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
               "Title": "UserRepository.cs",
               "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Repository\\UserRepository.cs",
               "RelativeDocumentMoniker": "myWebApi\\Repository\\UserRepository.cs",
@@ -441,19 +474,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
-              "Title": "OrderCreateRequest.cs",
-              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Model\\Request\\OrderCreateRequest.cs",
-              "RelativeDocumentMoniker": "myWebApi\\Model\\Request\\OrderCreateRequest.cs",
-              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Model\\Request\\OrderCreateRequest.cs",
-              "RelativeToolTip": "myWebApi\\Model\\Request\\OrderCreateRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAgAAAAFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T08:27:48.255Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 20,
               "Title": "GenericRepository.cs",
               "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Repository\\GenericRepository\\GenericRepository.cs",
               "RelativeDocumentMoniker": "myWebApi\\Repository\\GenericRepository\\GenericRepository.cs",
@@ -465,7 +486,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 21,
               "Title": "IGenericRepository.cs",
               "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Repository\\GenericRepository\\IGenericRepository.cs",
               "RelativeDocumentMoniker": "myWebApi\\Repository\\GenericRepository\\IGenericRepository.cs",
@@ -477,7 +498,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 23,
               "Title": "OrderDetailController.cs",
               "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Controllers\\OrderDetailController.cs",
               "RelativeDocumentMoniker": "myWebApi\\Controllers\\OrderDetailController.cs",
@@ -489,19 +510,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
-              "Title": "OrderController.cs",
-              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Controllers\\OrderController.cs",
-              "RelativeDocumentMoniker": "myWebApi\\Controllers\\OrderController.cs",
-              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Controllers\\OrderController.cs",
-              "RelativeToolTip": "myWebApi\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAATAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T08:47:18.055Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 22,
               "Title": "ProductController.cs",
               "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Controllers\\ProductController.cs",
               "RelativeDocumentMoniker": "myWebApi\\Controllers\\ProductController.cs",
@@ -513,7 +522,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 25,
               "Title": "OrderRepository.cs",
               "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Repository\\OrderRepository.cs",
               "RelativeDocumentMoniker": "myWebApi\\Repository\\OrderRepository.cs",
@@ -525,7 +534,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 24,
               "Title": "IOrderRepository.cs",
               "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Repository\\Interface\\IOrderRepository.cs",
               "RelativeDocumentMoniker": "myWebApi\\Repository\\Interface\\IOrderRepository.cs",
@@ -537,7 +546,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 26,
               "Title": "IOrderDetailService.cs",
               "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Services\\Interface\\IOrderDetailService.cs",
               "RelativeDocumentMoniker": "myWebApi\\Services\\Interface\\IOrderDetailService.cs",
@@ -549,7 +558,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 27,
               "Title": "OrderDetailRepository.cs",
               "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Repository\\OrderDetailRepository.cs",
               "RelativeDocumentMoniker": "myWebApi\\Repository\\OrderDetailRepository.cs",
@@ -561,19 +570,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
-              "Title": "OrderDetailCreateRequest.cs",
-              "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Model\\Request\\OrderDetailCreateRequest.cs",
-              "RelativeDocumentMoniker": "myWebApi\\Model\\Request\\OrderDetailCreateRequest.cs",
-              "ToolTip": "D:\\InternExercise\\myExercise_2\\myWebApi\\Model\\Request\\OrderDetailCreateRequest.cs",
-              "RelativeToolTip": "myWebApi\\Model\\Request\\OrderDetailCreateRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAApAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-09T08:31:13.92Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 28,
               "Title": "IOrderService.cs",
               "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Services\\Interface\\IOrderService.cs",
               "RelativeDocumentMoniker": "myWebApi\\Services\\Interface\\IOrderService.cs",
@@ -585,7 +582,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 32,
               "Title": "IUserRepository.cs",
               "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Repository\\Interface\\IUserRepository.cs",
               "RelativeDocumentMoniker": "myWebApi\\Repository\\Interface\\IUserRepository.cs",
@@ -597,7 +594,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 29,
               "Title": "IProductService.cs",
               "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Services\\Interface\\IProductService.cs",
               "RelativeDocumentMoniker": "myWebApi\\Services\\Interface\\IProductService.cs",
@@ -609,7 +606,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 31,
               "Title": "IProductRepository.cs",
               "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Repository\\Interface\\IProductRepository.cs",
               "RelativeDocumentMoniker": "myWebApi\\Repository\\Interface\\IProductRepository.cs",
@@ -621,7 +618,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 33,
               "Title": "IOrderDetailRepository.cs",
               "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Repository\\Interface\\IOrderDetailRepository.cs",
               "RelativeDocumentMoniker": "myWebApi\\Repository\\Interface\\IOrderDetailRepository.cs",
@@ -633,7 +630,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 30,
               "Title": "ProductRepository.cs",
               "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Repository\\ProductRepository.cs",
               "RelativeDocumentMoniker": "myWebApi\\Repository\\ProductRepository.cs",
@@ -645,7 +642,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 34,
               "Title": "AppResponse.cs",
               "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Model\\Response\\AppResponse.cs",
               "RelativeDocumentMoniker": "myWebApi\\Model\\Response\\AppResponse.cs",
@@ -657,7 +654,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 37,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myExercise_2\\Program.cs",
               "RelativeDocumentMoniker": "myExercise_2\\Program.cs",
@@ -669,7 +666,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 35,
               "Title": "ProductCreateRequest.cs",
               "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Model\\Request\\ProductCreateRequest.cs",
               "RelativeDocumentMoniker": "myWebApi\\Model\\Request\\ProductCreateRequest.cs",
@@ -681,7 +678,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 38,
               "Title": "Graph.cs",
               "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myExercise_2\\Method template\\Graph.cs",
               "RelativeDocumentMoniker": "myExercise_2\\Method template\\Graph.cs",
@@ -693,7 +690,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 39,
               "Title": "ExportOnConsole.cs",
               "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myExercise_2\\Method template\\ExportOnConsole.cs",
               "RelativeDocumentMoniker": "myExercise_2\\Method template\\ExportOnConsole.cs",
@@ -705,7 +702,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 41,
               "Title": "ExcuseGraph.cs",
               "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myExercise_2\\Method template\\ExcuseGraph.cs",
               "RelativeDocumentMoniker": "myExercise_2\\Method template\\ExcuseGraph.cs",
@@ -717,7 +714,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 43,
               "Title": "GetLevelMin.cs",
               "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myExercise_2\\Method template\\GetLevelMin.cs",
               "RelativeDocumentMoniker": "myExercise_2\\Method template\\GetLevelMin.cs",
@@ -729,7 +726,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 44,
               "Title": "myWebApi.csproj",
               "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\myWebApi.csproj",
               "RelativeDocumentMoniker": "myWebApi\\myWebApi.csproj",
@@ -741,7 +738,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 36,
               "Title": "IUserService.cs",
               "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Services\\Interface\\IUserService.cs",
               "RelativeDocumentMoniker": "myWebApi\\Services\\Interface\\IUserService.cs",
@@ -753,7 +750,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 40,
               "Title": "ExportData.cs",
               "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myExercise_2\\Method template\\ExportData.cs",
               "RelativeDocumentMoniker": "myExercise_2\\Method template\\ExportData.cs",
@@ -765,7 +762,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 45,
               "Title": "myExercise_2.csproj",
               "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myExercise_2\\myExercise_2.csproj",
               "RelativeDocumentMoniker": "myExercise_2\\myExercise_2.csproj",
@@ -777,7 +774,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 42,
               "Title": "GetLevelMax.cs",
               "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myExercise_2\\Method template\\GetLevelMax.cs",
               "RelativeDocumentMoniker": "myExercise_2\\Method template\\GetLevelMax.cs",
@@ -789,7 +786,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 46,
               "Title": "myWebApi.http",
               "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\myWebApi.http",
               "RelativeDocumentMoniker": "myWebApi\\myWebApi.http",
@@ -801,7 +798,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 46,
+              "DocumentIndex": 47,
               "Title": "UserReponse.cs",
               "DocumentMoniker": "D:\\InternExercise\\myExercise_2\\myWebApi\\Model\\Response\\UserReponse.cs",
               "RelativeDocumentMoniker": "myWebApi\\Model\\Response\\UserReponse.cs",

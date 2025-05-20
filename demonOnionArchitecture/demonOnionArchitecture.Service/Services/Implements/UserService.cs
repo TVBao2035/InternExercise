@@ -11,6 +11,7 @@ using demonOnionArchitecture.Service.Services.Interfaces;
 using AutoMapper;
 using demonOnionArchitecture.Infrastrue.Repository.Interfaces;
 using Microsoft.EntityFrameworkCore;
+using demonOnionArchitecture.Common.Interfaces;
 
 
 
@@ -21,12 +22,14 @@ namespace demonOnionArchitecture.Service.Services.Implements
 
         private IMapper _mapper;
         private IUserRepository _userRepository;
+        private IAppLogger<UserService> _logger;
 
-        public UserService(IMapper mapper, IUserRepository userRepository)
+        public UserService(IMapper mapper, IUserRepository userRepository, IAppLogger<UserService> logger)
         {
            
             _mapper = mapper;
             _userRepository = userRepository;
+            _logger = logger;
         }
 
         public async Task<User> CheckUserByEmail(string email)
@@ -86,6 +89,8 @@ namespace demonOnionArchitecture.Service.Services.Implements
             var response = new AppReponse<List<UserResponse>> ();
             try
             {
+                _logger.LogInformation("Get All User.........");
+                _logger.LogError("Print ERROR");
                 List<UserResponse> userList = await _userRepository.Query()
                     .Select(u => _mapper.Map<UserResponse>(u))
                     .ToListAsync();
@@ -93,6 +98,7 @@ namespace demonOnionArchitecture.Service.Services.Implements
             }
             catch (Exception ex)
             {
+                _logger.LogError(ex.Message, ex);
                 return response.SendReponse(400, ex.Message);
             }
         }
