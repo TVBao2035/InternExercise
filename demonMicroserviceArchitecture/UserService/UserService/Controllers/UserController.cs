@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Identity.Client;
 using UserService.Models.DTOs;
@@ -11,6 +12,7 @@ namespace UserService.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    [Authorize]
     public class UserController : ControllerBase
     {
         private IUserService _userService;
@@ -23,6 +25,7 @@ namespace UserService.Controllers
 
         [HttpPost]
         [Route("Refresh")]
+        [AllowAnonymous]
         public async Task<IActionResult> Refresh([FromBody] string refreshToken)
         {
             var data = await _userService.ValidateRefreshToken(refreshToken);
@@ -31,6 +34,7 @@ namespace UserService.Controllers
 
         [HttpPost]
         [Route("SignIn")]
+        [AllowAnonymous]
         public async Task<IActionResult> Login([FromBody] LoginRequest request)
         {
             var data = await _userService.Login(request);

@@ -21,7 +21,6 @@ namespace GateWay
                 logger.Info("Starting..........");
                 logger.Debug("Init main");
                 var builder = WebApplication.CreateBuilder(args);
-
                 builder.Logging.SetMinimumLevel(Microsoft.Extensions.Logging.LogLevel.Information);
                 builder.Logging.ClearProviders();
                 builder.Host.UseNLog();
@@ -59,14 +58,12 @@ namespace GateWay
                    };
                });
 
-
-
                 builder.Services.AddControllers();
                 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
                 builder.Services.AddEndpointsApiExplorer();
                 builder.Services.AddSwaggerGen();
                 builder.Configuration.AddJsonFile("ocelot.json", optional: false, reloadOnChange: true);
-                builder.Services.AddOcelot(builder.Configuration);
+                builder.Services.AddOcelot(builder.Configuration);  
                 var app = builder.Build();
 
                 // Configure the HTTP request pipeline.
@@ -75,16 +72,12 @@ namespace GateWay
                     app.UseSwagger();
                     app.UseSwaggerUI();
                 }
-
                 app.UseHttpsRedirection();
                 await app.UseOcelot();
 
                 app.UseAuthorization();
                 app.UseAuthentication();
-
-
                 app.MapControllers();
-
                 app.Run();
             }
             catch (Exception ex)

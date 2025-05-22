@@ -9,5 +9,6 @@ namespace OrderService.Repositories.Interfaces
         void Delete(T entity);
         IQueryable<T> Query(Expression<Func<T, bool>> expression);
         IQueryable<T> Query();
+        Task InsertAsync(T entity);
     }
 }

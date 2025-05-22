@@ -23,20 +23,33 @@ namespace UserService
                 options.DefaultAuthenticateScheme = JwtBearerDefaults.AuthenticationScheme;
                 options.DefaultChallengeScheme = JwtBearerDefaults.AuthenticationScheme;
             })
-            .AddJwtBearer(options =>
-            {
-                options.TokenValidationParameters = new TokenValidationParameters
-                {
-                    ValidateIssuer = true,
-                    ValidateAudience = true,
-                    ValidateLifetime = true,
-                    ValidateIssuerSigningKey = true,
-                    ClockSkew = TimeSpan.Zero,
-                    ValidIssuer = builder.Configuration["Auth:Issuer"],
-                    ValidAudience = builder.Configuration["Auth:Audience"],
-                    IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Auth:Key"]))
-                };
-            });
+               .AddJwtBearer(options =>
+               {
+                   options.TokenValidationParameters = new TokenValidationParameters
+                   {
+                       ValidateIssuer = true,
+                       ValidateAudience = true,
+                       ValidateLifetime = true,
+                       ValidateIssuerSigningKey = true,
+                       ClockSkew = TimeSpan.Zero,
+                       ValidIssuer = builder.Configuration["Auth:Issuer"],
+                       ValidAudience = builder.Configuration["Auth:Audience"],
+                       IssuerSigningKey = new SymmetricSecurityKey(Encoding.UTF8.GetBytes(builder.Configuration["Auth:Key"]))
+                   };
+                   options.Events = new JwtBearerEvents
+                   {
+                       OnAuthenticationFailed = context =>
+                       {
+                           if (context.Exception is SecurityTokenExpiredException)
+                           {
+                               context.Response.StatusCode = 401;
+                               context.Response.ContentType = "application/json";
+                               return context.Response.WriteAsync("{\"error\": \"Token has expired\"}");
+                           }
+                           return Task.CompletedTask;
+                       }
+                   };
+               });
             builder.Services.AddControllers();
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();

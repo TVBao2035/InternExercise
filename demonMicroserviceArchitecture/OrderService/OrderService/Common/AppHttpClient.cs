@@ -13,6 +13,8 @@ namespace OrderService.Common
         private static HttpClient httpClient = new HttpClient();
         public async Task<T> GetDataFromHttp(string url)
         {
+            var token = AppGetToken.GetToken();
+            httpClient.DefaultRequestHeaders.Authorization = new System.Net.Http.Headers.AuthenticationHeaderValue("Bearer", token);
             var http = await httpClient.GetAsync(url);
             var json = await http.Content.ReadAsStringAsync();
             T data = JsonSerializer.Deserialize<T>(json, new JsonSerializerOptions { PropertyNameCaseInsensitive = true });

@@ -24,6 +24,8 @@ namespace demonOnionArchitecture
             builder.Logging.SetMinimumLevel(Microsoft.Extensions.Logging.LogLevel.Information);
             builder.Logging.ClearProviders();
             builder.Host.UseNLog();
+
+
             builder.Services.RegisterDbContext(builder.Configuration);
             builder.Services.RegisterDI();
             builder.Services.AddSwaggerGen();

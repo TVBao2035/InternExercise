@@ -4,8 +4,10 @@ using System.IdentityModel.Tokens.Jwt;
 using System.Security.Claims;
 using System.Text;
 using Azure.Core;
+using LinqKit;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Microsoft.IdentityModel.Tokens;
 using UserService.Models.DTOs;
 using UserService.Models.Enities;
@@ -32,23 +34,40 @@ namespace UserService.Services.Implements
             _tokenRepository = tokenRepository;
             _config = config;
         }
-
-        public async Task<AppReponse<SearchResponse<UserDTO>>> Search(SearchRequest request)
+        // implememt authentication for each services
+        // handle search method
+        // handle dto :))
+        public async Task<AppReponse<SearchResponse<UserDTO>>> Search(SearchRequest request) 
         {
            var result = new  AppReponse<SearchResponse<UserDTO>>();
             try
             {
                 SearchResponse<UserDTO> reponse = new SearchResponse<UserDTO>();
                 reponse.Results = new List<UserDTO>();
-                IQueryable<User> query = _userRepository.Query();
+                var query = GetQuerySearch(request.Filters);
+                var users = query.Select(u => new UserDTO
+                {
+                    Name = u.Name,
+                    Email = u.Email
+                }).ToList();
                
-                foreach (SearchFilter fileter in request.Filters) { 
-                    reponse.Results.AddRange(GetValueFromSearch(fileter));
+               if(request.Sort is not null)
+                {
+                    if(request.Sort.IsASC)
+                        users = users.OrderBy(u => u.GetType().GetProperty(request.Sort.FieldName)?.GetValue(u, null)).ToList();
+                    else
+                        users = users.OrderByDescending(u => u.GetType().GetProperty(request.Sort.FieldName).GetValue(u, null)).ToList();
                 }
-                if (request.Sort.IsASC)
-                    reponse.Results = reponse.Results.OrderBy(u => u.GetType().GetProperty(request.Sort.FieldName)?.GetValue(u, null)).ToList();
-                else reponse.Results = reponse.Results.OrderByDescending(u => u.GetType().GetProperty(request.Sort.FieldName)?.GetValue(u, null)).ToList();
+                int pageSize = request.PageSize != 0 ? request.PageSize : 1;
+                int currPage = request.CurrPage != 0 ? request.CurrPage-1 : 0;
+                int totalPage = users.Count / request.PageSize;
+                int skip = pageSize * currPage;
+                reponse.Results = users.Skip(skip).Take(pageSize).ToList();
+                reponse.CurrPage = currPage + 1;
+                reponse.TotalPages = totalPage;
+                
                 return result.SendReponse(200, "Success", reponse);
+                
             }
             catch (Exception ex)
             {
@@ -57,28 +76,28 @@ namespace UserService.Services.Implements
             }
         }
       
-        public List<UserDTO> GetValueFromSearch(SearchFilter filter)
+        public IQueryable<User> GetQuerySearch(List<SearchFilter> filters)
         {
-            var value = filter.Value.ToLower().Trim();
-            IQueryable<User> query;
-            switch (filter.FieldName.ToLower().Trim())
+            IQueryable<User> query = _userRepository.Query();
+            if (filters is not null && filters.Count > 0)
             {
-                case "name":
-                    query = _userRepository.Query(u => u.Name.ToLower().Trim().Equals(value)).AsQueryable();
-                    break;
-                case "email":
-                    query = _userRepository.Query(u => u.Email.Equals(value)).AsQueryable();
-                    break;
-                default:
-                    query = _userRepository.Query().AsQueryable();
-                    break;
+                foreach(var filter in filters)
+                {
+                    var value = filter.Value.ToLower().Trim();
+                    switch (filter.FieldName.ToLower().Trim())
+                    {
+                        case "name":
+                            query = query.Where(u => u.Name.Contains(value));
+                            break;
+                        case "email":
+                            query = query.Where(u => u.Email.Equals(value));
+                            break;
+                        default:
+                            break;
+                    }
+                }
             }
-
-            return query.Select(u => new UserDTO
-            {
-                Name = u.Name,
-                Email = u.Email,
-            }).ToList();
+            return query;
         }
 
 
@@ -115,9 +134,9 @@ namespace UserService.Services.Implements
                      refreshToken,
                      new TokenValidationParameters
                      {
-                         ValidateIssuer = false,
+                         ValidateIssuer = true,
                          ValidIssuer = _config["Auth:Issuer"],
-                         ValidateAudience = false,
+                         ValidateAudience = true,
                          ValidAudience = _config["Auth:Audience"],
                          ValidateLifetime = true,
                          ValidateIssuerSigningKey = true,
@@ -128,15 +147,18 @@ namespace UserService.Services.Implements
                      out _
                      );
                 var claims = claimPrincial.Claims.ToList();
-                var code = Guid.Parse(claims[3].ToString().Split(':')[2]);
-                var emailUser = claims[1].ToString().Split(':')[1].Trim();
+                if (claims.Count == 0) return response.SendReponse(401, "Payload is not valid");
+
+                var code = Guid.Parse(claimPrincial.FindFirst(ClaimTypes.SerialNumber).Value);
+                var emailUser = claimPrincial.FindFirst("Email").Value;
                 var getRefresh =  _tokenRepository.Query(t => t.Code == code).FirstOrDefault();
                 var user = _userRepository.Query(u => u.Email==emailUser).FirstOrDefault();
+
                 if (getRefresh is null)
                 {
                     return response.SendReponse(404, "Not found");
                 }
-                if(getRefresh.Expire <= DateTime.Now)
+                if(getRefresh.Expire <= DateTime.UtcNow)
                 {
                     return response.SendReponse(401, "Refresh Token Was Expired");
                 }
@@ -164,15 +186,17 @@ namespace UserService.Services.Implements
         }
         private string CreateAccessToken(User user)
         {
-            DateTime expired = DateTime.Now.AddSeconds(double.Parse(_config["Authe:ExpiredAccessToken"] ?? "60"));
+            double expiredAccessToken = double.Parse(_config["Auth:ExpiredAccessToken"] ?? "60");
+            DateTime expired = DateTime.UtcNow.AddSeconds(expiredAccessToken);
             var claims = GetClaims(user);
             claims.Add(new Claim (JwtRegisteredClaimNames.Exp, expired.ToString()));
-           
-            return GenerateToken(claims, expired);
+            var token =  GenerateToken(claims, expired);
+            return token;
         }
         private (string, DateTime, Guid) CreateRefreshToken(User user)
         {
-            DateTime expired = DateTime.Now.AddSeconds(double.Parse(_config["Authe:ExpiredRefreshToken"]??"30600"));
+            double expiredRefreshToken = double.Parse(_config["Auth:ExpiredRefreshToken"] ?? "3600");
+            DateTime expired = DateTime.UtcNow.AddSeconds(expiredRefreshToken);
             Guid code = Guid.NewGuid();
             var claims = GetClaims(user);
             claims.Add(new Claim(JwtRegisteredClaimNames.Exp, expired.ToString()));
@@ -199,7 +223,7 @@ namespace UserService.Services.Implements
                 audience: _config["Auth:Audience"],
                 claims,
                 expires: time,
-                notBefore: DateTime.Now,
+                notBefore: DateTime.UtcNow,
                 signingCredentials: credential
             );
 
@@ -209,6 +233,7 @@ namespace UserService.Services.Implements
 
         public async Task<AppReponse<User>> GetById(Guid Id)
         {
+            // dto
             var result = new AppReponse<User>();
             try
             {
@@ -229,16 +254,17 @@ namespace UserService.Services.Implements
             var result = new AppReponse<UserDTO>();
             try
             {
-                User user = await _userRepository.Query(u => u.Email == request.Email).FirstOrDefaultAsync();
-                if(user is not null)
+               
+                if (await _userRepository.Query(u => u.Email == request.Email).FirstOrDefaultAsync() is not null)
                 {
                     return result.SendReponse(404, "Email is exisiting");
                 }
-                user = new User();
+                User user = new User();
                 user.Id = Guid.NewGuid();
                 user.Email = request.Email;
+                user.Password = "12345";
                 user.Name = request.Name;
-                _userRepository.Insert(user);
+                 _userRepository.Insert(user);
                 return result.SendReponse(200, "Success", request);
             }
             catch (Exception ex)

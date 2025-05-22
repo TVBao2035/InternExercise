@@ -26,7 +26,11 @@
                 }
             ],
             "UpstreamPathTemplate": "/User",
-            "UpstreamHttpMethod": [ "GET", "POST", "PUT" ]
+            "UpstreamHttpMethod": [ "GET", "POST", "PUT" ],
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Bearer",
+                "AllowedScopes": []
+            }
         },
         {
             "DownstreamPathTemplate": "/api/User",
@@ -38,7 +42,11 @@
                 }
             ],
             "UpstreamPathTemplate": "/User/{Id}",
-            "UpstreamHttpMethod": [ "GET", "DELETE" ]
+            "UpstreamHttpMethod": [ "GET", "DELETE" ],
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Bearer",
+                "AllowedScopes": []
+            }
         },
         {
             "DownstreamPathTemplate": "/api/User/Search",
@@ -50,7 +58,11 @@
                 }
             ],
             "UpstreamPathTemplate": "/User/Search",
-            "UpstreamHttpMethod": [ "POST" ]
+            "UpstreamHttpMethod": [ "POST" ],
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Bearer",
+                "AllowedScopes": []
+            }
         },
         {
             "DownstreamPathTemplate": "/api/User/Refresh",
@@ -86,7 +98,11 @@
                 }
             ],
             "UpstreamPathTemplate": "/Product",
-            "UpstreamHttpMethod": [ "GET", "POST", "PUT" ]
+            "UpstreamHttpMethod": [ "GET", "POST", "PUT" ],
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Bearer",
+                "AllowedScopes": []
+            }
         },
         {
             "DownstreamPathTemplate": "/api/Product",
@@ -98,7 +114,11 @@
                 }
             ],
             "UpstreamPathTemplate": "/Product/{Id}",
-            "UpstreamHttpMethod": [ "GET", "DELETE" ]
+            "UpstreamHttpMethod": [ "GET", "DELETE" ],
+            "AuthenticationOptions": {
+                "AuthenticationProviderKey": "Bearer",
+                "AllowedScopes": []
+            }
         }
     ]
 }

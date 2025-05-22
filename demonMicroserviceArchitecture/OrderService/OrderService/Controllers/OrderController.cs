@@ -1,4 +1,5 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using OrderService.Models.DTOs;
 using OrderService.Models.Enities;
@@ -9,6 +10,7 @@ namespace OrderService.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
+    
     public class OrderController : ControllerBase
     {
         private IOrderService _orderService;
