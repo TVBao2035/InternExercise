@@ -242,9 +242,10 @@ namespace UserService.Services.Implements
             var result = new AppReponse<UserDTO>();
             try
             {
-                User user = await _userRepository.GetQueryable(u => u.Id == Id).FirstOrDefaultAsync();
+                var user = await _userRepository.GetQueryable(u => u.Id == Id).FirstOrDefaultAsync();
                 if(user == null)
                 {
+                    //
                     return result.SendReponse(404, "Not found user");
                 }
                 var userDTO = new UserDTO
@@ -289,7 +290,7 @@ namespace UserService.Services.Implements
             var result = new AppReponse<UserDTO>();
             try
             {
-                User user = await _userRepository.GetQueryable(u => u.Id == Id).FirstOrDefaultAsync();
+                var user = await _userRepository.GetQueryable(u => u.Id == Id).FirstOrDefaultAsync();
                 if (user is  null)
                 {
                     return result.SendReponse(404, "Not Found User");
@@ -334,7 +335,7 @@ namespace UserService.Services.Implements
             var result = new AppReponse<UserDTO>();
             try
             {
-                User user = await _userRepository.GetQueryable(u => u.Id == request.Id).FirstOrDefaultAsync();
+                var user = await _userRepository.GetQueryable(u => u.Id == request.Id).FirstOrDefaultAsync();
                 if (user is null) return result.SendReponse(404, "Not found user");
                 user.Email = request.Email;
                 user.Name = request.Name;
