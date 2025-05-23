@@ -7,8 +7,8 @@ namespace OrderService.Repositories.Interfaces
         void Insert(T entity);
         void Update(T entity);
         void Delete(T entity);
-        IQueryable<T> Query(Expression<Func<T, bool>> expression);
-        IQueryable<T> Query();
+        IQueryable<T> GetQueryable(Expression<Func<T, bool>> expression);
+        IQueryable<T> GetQueryable();
         Task InsertAsync(T entity);
     }
 }

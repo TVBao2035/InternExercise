@@ -9,6 +9,6 @@ namespace UserService.Models.Requests
         
         public List<SearchFilter>? Filters { get; set; }
 
-        public SortOrder Sort { get; set; }
+        public SortOrder? Sort { get; set; }
     }
 }

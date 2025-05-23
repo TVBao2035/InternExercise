@@ -10,10 +10,10 @@ namespace UserService.Services.Interfaces
         Task<AppReponse<UserDTO>> Create(UserDTO request);
         Task<AppReponse<UserDTO>> Update(User request);
         Task<AppReponse<UserDTO>> Delete(Guid Id);
-        Task<AppReponse<List<User>>> GetAll();
-        Task<AppReponse<User>> GetById(Guid Id);
+        Task<AppReponse<List<UserDTO>>> GetAll();
+        Task<AppReponse<UserDTO>> GetById(Guid Id);
         Task<AppReponse<SearchResponse<UserDTO>>> Search(SearchRequest request);
-        Task<AppReponse<LoginResponse>> Login(LoginRequest request);
-        Task<AppReponse<LoginResponse>> ValidateRefreshToken(string refreshToken);
+        Task<AppReponse<LoginResponse>> Login(SignInRequest request);
+        Task<AppReponse<LoginResponse>> Refresh(string refreshToken);
     }
 }

@@ -31,12 +31,12 @@ namespace OrderService.Repositories.Implements
             await  _context.SaveChangesAsync();
         }
 
-        public IQueryable<T> Query(Expression<Func<T, bool>> expression)
+        public IQueryable<T> GetQueryable(Expression<Func<T, bool>> expression)
         {
             return _context.Set<T>().Where(expression).AsQueryable();
         }
 
-        public IQueryable<T> Query()
+        public IQueryable<T> GetQueryable()
         {
             return _context.Set<T>().AsQueryable();
         }

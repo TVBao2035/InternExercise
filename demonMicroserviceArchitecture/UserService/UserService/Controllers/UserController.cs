@@ -28,14 +28,14 @@ namespace UserService.Controllers
         [AllowAnonymous]
         public async Task<IActionResult> Refresh([FromBody] string refreshToken)
         {
-            var data = await _userService.ValidateRefreshToken(refreshToken);
+            var data = await _userService.Refresh(refreshToken);
             return Ok(data);
         }
 
         [HttpPost]
         [Route("SignIn")]
         [AllowAnonymous]
-        public async Task<IActionResult> Login([FromBody] LoginRequest request)
+        public async Task<IActionResult> Login([FromBody] SignInRequest request)
         {
             var data = await _userService.Login(request);
             return Ok(data);
