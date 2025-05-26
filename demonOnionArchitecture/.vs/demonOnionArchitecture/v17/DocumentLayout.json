@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "D:\\InternExercise\\demonOnionArchitecture\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{751C8EB9-07BE-4518-9F2A-4F29C08EF999}|demonOnionArchitecture\\demonOnionArchitecture.csproj|d:\\internexercise\\demononionarchitecture\\demononionarchitecture\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{751C8EB9-07BE-4518-9F2A-4F29C08EF999}|demonOnionArchitecture\\demonOnionArchitecture.csproj|solutionrelative:demononionarchitecture\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{751C8EB9-07BE-4518-9F2A-4F29C08EF999}|demonOnionArchitecture\\demonOnionArchitecture.csproj|d:\\internexercise\\demononionarchitecture\\demononionarchitecture\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{751C8EB9-07BE-4518-9F2A-4F29C08EF999}|demonOnionArchitecture\\demonOnionArchitecture.csproj|solutionrelative:demononionarchitecture\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{751C8EB9-07BE-4518-9F2A-4F29C08EF999}|demonOnionArchitecture\\demonOnionArchitecture.csproj|c:\\users\\bao.truong\\.nuget\\packages\\nlog.config\\4.7.15\\contentfiles\\any\\any\\nlog.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
     },
     {
@@ -30,10 +38,6 @@
       "RelativeMoniker": "D:0:0:{B281E653-D97D-4142-89D0-9022D0267F7D}|demonOnionArchitecture.Data\\demonOnionArchitecture.Infrastructure.csproj|solutionrelative:demononionarchitecture.data\\configuration\\registerservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{751C8EB9-07BE-4518-9F2A-4F29C08EF999}|demonOnionArchitecture\\demonOnionArchitecture.csproj|d:\\internexercise\\demononionarchitecture\\demononionarchitecture\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{751C8EB9-07BE-4518-9F2A-4F29C08EF999}|demonOnionArchitecture\\demonOnionArchitecture.csproj|solutionrelative:demononionarchitecture\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B281E653-D97D-4142-89D0-9022D0267F7D}|demonOnionArchitecture.Data\\demonOnionArchitecture.Infrastructure.csproj|d:\\internexercise\\demononionarchitecture\\demononionarchitecture.data\\demononionarchitecture.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{B281E653-D97D-4142-89D0-9022D0267F7D}|demonOnionArchitecture.Data\\demonOnionArchitecture.Infrastructure.csproj|solutionrelative:demononionarchitecture.data\\demononionarchitecture.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
@@ -56,10 +60,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{04D31626-611D-48DF-AA14-D6443052DDEB}|demonOnionArchitecture.Infrastrue\\demonOnionArchitecture.Data.csproj|d:\\internexercise\\demononionarchitecture\\demononionarchitecture.infrastrue\\demononionarchitecture.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{04D31626-611D-48DF-AA14-D6443052DDEB}|demonOnionArchitecture.Infrastrue\\demonOnionArchitecture.Data.csproj|solutionrelative:demononionarchitecture.infrastrue\\demononionarchitecture.data.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{751C8EB9-07BE-4518-9F2A-4F29C08EF999}|demonOnionArchitecture\\demonOnionArchitecture.csproj|d:\\internexercise\\demononionarchitecture\\demononionarchitecture\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{751C8EB9-07BE-4518-9F2A-4F29C08EF999}|demonOnionArchitecture\\demonOnionArchitecture.csproj|solutionrelative:demononionarchitecture\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{04D31626-611D-48DF-AA14-D6443052DDEB}|demonOnionArchitecture.Infrastrue\\demonOnionArchitecture.Data.csproj|d:\\internexercise\\demononionarchitecture\\demononionarchitecture.infrastrue\\context\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -89,11 +89,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "NLog.config",
               "DocumentMoniker": "C:\\Users\\bao.truong\\.nuget\\packages\\nlog.config\\4.7.15\\contentFiles\\any\\any\\NLog.config",
               "ToolTip": "C:\\Users\\bao.truong\\.nuget\\packages\\nlog.config\\4.7.15\\contentFiles\\any\\any\\NLog.config",
@@ -103,12 +103,8 @@
               "EditorCaption": ""
             },
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
-            },
-            {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 12,
               "Title": "UserUpdateRequest.cs",
               "DocumentMoniker": "D:\\InternExercise\\demonOnionArchitecture\\demonOnionArchitecture.Domain\\DTOs\\Request\\UserUpdateRequest.cs",
               "RelativeDocumentMoniker": "demonOnionArchitecture.Domain\\DTOs\\Request\\UserUpdateRequest.cs",
@@ -120,7 +116,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\InternExercise\\demonOnionArchitecture\\demonOnionArchitecture\\Program.cs",
               "RelativeDocumentMoniker": "demonOnionArchitecture\\Program.cs",
@@ -128,24 +124,24 @@
               "RelativeToolTip": "demonOnionArchitecture\\Program.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAAABUAAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T08:18:35.31Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T08:18:35.31Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 0,
               "Title": "UserController.cs",
               "DocumentMoniker": "D:\\InternExercise\\demonOnionArchitecture\\demonOnionArchitecture\\Controllers\\UserController.cs",
               "RelativeDocumentMoniker": "demonOnionArchitecture\\Controllers\\UserController.cs",
               "ToolTip": "D:\\InternExercise\\demonOnionArchitecture\\demonOnionArchitecture\\Controllers\\UserController.cs",
               "RelativeToolTip": "demonOnionArchitecture\\Controllers\\UserController.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAAsAAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABgAAAAAAAAAAAAowBUAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T08:18:23.075Z"
+              "WhenOpened": "2025-05-12T08:18:23.075Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "RegisterServices.cs",
               "DocumentMoniker": "D:\\InternExercise\\demonOnionArchitecture\\demonOnionArchitecture.Data\\Configuration\\RegisterServices.cs",
               "RelativeDocumentMoniker": "demonOnionArchitecture.Data\\Configuration\\RegisterServices.cs",
@@ -157,7 +153,24 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\InternExercise\\demonOnionArchitecture\\demonOnionArchitecture\\appsettings.json",
+              "RelativeDocumentMoniker": "demonOnionArchitecture\\appsettings.json",
+              "ToolTip": "D:\\InternExercise\\demonOnionArchitecture\\demonOnionArchitecture\\appsettings.json",
+              "RelativeToolTip": "demonOnionArchitecture\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-05-13T06:21:59.99Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "UserService.cs",
               "DocumentMoniker": "D:\\InternExercise\\demonOnionArchitecture\\demonOnionArchitecture.Service\\Services\\Implements\\UserService.cs",
               "RelativeDocumentMoniker": "demonOnionArchitecture.Service\\Services\\Implements\\UserService.cs",
@@ -165,12 +178,11 @@
               "RelativeToolTip": "demonOnionArchitecture.Service\\Services\\Implements\\UserService.cs",
               "ViewState": "AgIAAFAAAAAAAAAAAAAIwFYAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-12T08:21:23.03Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-12T08:21:23.03Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "NLogger.cs",
               "DocumentMoniker": "D:\\InternExercise\\demonOnionArchitecture\\demonOnionArchitecture.Data\\Logging\\NLogger.cs",
               "RelativeDocumentMoniker": "demonOnionArchitecture.Data\\Logging\\NLogger.cs",
@@ -178,12 +190,11 @@
               "RelativeToolTip": "demonOnionArchitecture.Data\\Logging\\NLogger.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-19T06:54:58.998Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-05-19T06:54:58.998Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "IAppLogger.cs",
               "DocumentMoniker": "D:\\InternExercise\\demonOnionArchitecture\\demonOnionArchitecture.Common\\Interfaces\\IAppLogger.cs",
               "RelativeDocumentMoniker": "demonOnionArchitecture.Common\\Interfaces\\IAppLogger.cs",
@@ -195,7 +206,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "demonOnionArchitecture.csproj",
               "DocumentMoniker": "D:\\InternExercise\\demonOnionArchitecture\\demonOnionArchitecture\\demonOnionArchitecture.csproj",
               "RelativeDocumentMoniker": "demonOnionArchitecture\\demonOnionArchitecture.csproj",
@@ -208,7 +219,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 10,
               "Title": "demonOnionArchitecture.Domain.csproj",
               "DocumentMoniker": "D:\\InternExercise\\demonOnionArchitecture\\demonOnionArchitecture.Domain\\demonOnionArchitecture.Domain.csproj",
               "RelativeDocumentMoniker": "demonOnionArchitecture.Domain\\demonOnionArchitecture.Domain.csproj",
@@ -221,7 +232,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 9,
               "Title": "demonOnionArchitecture.Infrastructure.csproj",
               "DocumentMoniker": "D:\\InternExercise\\demonOnionArchitecture\\demonOnionArchitecture.Data\\demonOnionArchitecture.Infrastructure.csproj",
               "RelativeDocumentMoniker": "demonOnionArchitecture.Data\\demonOnionArchitecture.Infrastructure.csproj",
@@ -234,7 +245,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 11,
               "Title": "AppReponse.cs",
               "DocumentMoniker": "D:\\InternExercise\\demonOnionArchitecture\\demonOnionArchitecture.Service\\Modals\\AppReponse.cs",
               "RelativeDocumentMoniker": "demonOnionArchitecture.Service\\Modals\\AppReponse.cs",
@@ -246,7 +257,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 13,
               "Title": "UserCreateRequest.cs",
               "DocumentMoniker": "D:\\InternExercise\\demonOnionArchitecture\\demonOnionArchitecture.Domain\\DTOs\\Request\\UserCreateRequest.cs",
               "RelativeDocumentMoniker": "demonOnionArchitecture.Domain\\DTOs\\Request\\UserCreateRequest.cs",
@@ -258,7 +269,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 14,
               "Title": "demonOnionArchitecture.Data.csproj",
               "DocumentMoniker": "D:\\InternExercise\\demonOnionArchitecture\\demonOnionArchitecture.Infrastrue\\demonOnionArchitecture.Data.csproj",
               "RelativeDocumentMoniker": "demonOnionArchitecture.Infrastrue\\demonOnionArchitecture.Data.csproj",
@@ -268,18 +279,6 @@
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-05-12T08:35:36.822Z",
               "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 14,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\InternExercise\\demonOnionArchitecture\\demonOnionArchitecture\\appsettings.json",
-              "RelativeDocumentMoniker": "demonOnionArchitecture\\appsettings.json",
-              "ToolTip": "D:\\InternExercise\\demonOnionArchitecture\\demonOnionArchitecture\\appsettings.json",
-              "RelativeToolTip": "demonOnionArchitecture\\appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAEAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-05-13T06:21:59.99Z"
             },
             {
               "$type": "Document",

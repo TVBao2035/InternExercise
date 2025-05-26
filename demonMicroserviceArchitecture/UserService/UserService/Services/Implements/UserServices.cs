@@ -1,12 +1,14 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel;
 using System.IdentityModel.Tokens.Jwt;
+using System.Linq.Expressions;
 using System.Security.Claims;
 using System.Text;
 using Azure.Core;
 using LinqKit;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.EntityFrameworkCore.Metadata.Conventions;
 using Microsoft.EntityFrameworkCore.Metadata.Internal;
 using Microsoft.IdentityModel.Tokens;
 using UserService.Models.DTOs;
@@ -16,6 +18,7 @@ using UserService.Models.Responses;
 using UserService.Repositories.Implements;
 using UserService.Repositories.Interfaces;
 using UserService.Services.Interfaces;
+using static Microsoft.EntityFrameworkCore.DbLoggerCategory;
 
 namespace UserService.Services.Implements
 {
@@ -43,27 +46,29 @@ namespace UserService.Services.Implements
                 SearchResponse<UserDTO> reponse = new SearchResponse<UserDTO>();
                 reponse.Results = new List<UserDTO>();
                 var query = GetQuerySearch(request.Filters);
+
+                query = GetQuerySort(request.Sort, query);
+        
+                int pageSize = request.PageSize;
+                int currPage = request.CurrPage - 1;
+                int skip = pageSize * currPage;
+                int totalPage = (query.Count() / request.PageSize);
+                if ((query.Count() % request.PageSize != 0)) totalPage++;
+
+                query = query.Skip(skip).Take(pageSize);
                 var users = query.Select(u => new UserDTO
                 {
                     Name = u.Name,
                     Email = u.Email
                 }).ToList();
-               
-               if(request.Sort is not null)
-                {
-                    if(request.Sort.IsASC)
-                        users = users.OrderBy(u => u.GetType().GetProperty(request.Sort.FieldName)?.GetValue(u, null)).ToList();
-                    else
-                        users = users.OrderByDescending(u => u.GetType().GetProperty(request.Sort.FieldName).GetValue(u, null)).ToList();
-                }
-                int pageSize = request.PageSize > 0 ? request.PageSize : 1;
-                int currPage = request.CurrPage > 0 ? request.CurrPage - 1 : 0;
-                int totalPage = (users.Count / request.PageSize) ;
+
+
                 if (currPage > totalPage) currPage = totalPage;
-                int skip = pageSize * currPage;
-                reponse.Results = users.Skip(skip).Take(pageSize).ToList();
+                reponse.Results = users;
                 reponse.CurrPage = currPage + 1;
-                reponse.TotalPages = totalPage+1;
+                reponse.TotalPages = totalPage;
+
+
                 return result.SendReponse(200, "Success", reponse);
             }
             catch (Exception ex)
@@ -71,7 +76,26 @@ namespace UserService.Services.Implements
                 return result.SendReponse(404, ex.Message);
             }
         }
-      
+
+        public IQueryable<User> GetQuerySort(SortOrder order, IQueryable<User> query)
+        {
+            if (order is not null)
+            {
+                var param = Expression.Parameter(typeof(User), "m");
+                var property = Expression.Property(param, order.FieldName);
+                var lambda = Expression.Lambda<Func<User, object>>(property, param);
+                if(lambda is not null)
+                {
+                    if (order.IsASC )
+                        query = query.OrderBy(lambda ).AsQueryable();
+                    else
+                        query = query.OrderByDescending(lambda).AsQueryable();
+
+                }
+            }
+            return query;
+        }
+
         public IQueryable<User> GetQuerySearch(List<SearchFilter> filters)
         {
             IQueryable<User> query = _userRepository.GetQueryable();
@@ -290,7 +314,9 @@ namespace UserService.Services.Implements
             var result = new AppReponse<UserDTO>();
             try
             {
-                var user = await _userRepository.GetQueryable(u => u.Id == Id).FirstOrDefaultAsync();
+                var user = await _userRepository
+                    .GetQueryable(u => u.Id == Id)
+                    .FirstOrDefaultAsync();
                 if (user is  null)
                 {
                     return result.SendReponse(404, "Not Found User");
@@ -336,7 +362,17 @@ namespace UserService.Services.Implements
             try
             {
                 var user = await _userRepository.GetQueryable(u => u.Id == request.Id).FirstOrDefaultAsync();
-                if (user is null) return result.SendReponse(404, "Not found user");
+                if (user is null) 
+                    return result.SendReponse(404, "Not found user");
+
+                var test = await _userRepository
+                    .GetQueryable(u => u.Email == request.Email)
+                    .FirstOrDefaultAsync();
+
+                if(test is not null && test.Id != user.Id)
+                {
+                    return result.SendReponse(404, "Email is existing");
+                }
                 user.Email = request.Email;
                 user.Name = request.Name;
                 _userRepository.Update(user);

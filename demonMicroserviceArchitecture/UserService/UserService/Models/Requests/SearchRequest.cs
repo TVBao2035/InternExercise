@@ -4,8 +4,8 @@ namespace UserService.Models.Requests
 {
     public class SearchRequest
     {
-        public int CurrPage {  get; set; }
-        public int PageSize { get; set; }
+        public int CurrPage { get; set; } = 1;
+        public int PageSize { get; set; } = 5;
         
         public List<SearchFilter>? Filters { get; set; }
 

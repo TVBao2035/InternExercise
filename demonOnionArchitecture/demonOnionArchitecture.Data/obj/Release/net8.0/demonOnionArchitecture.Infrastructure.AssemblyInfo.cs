@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("demonOnionArchitecture.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+dbd2585d7ce282d6724ba9632a09a02ffb31b70a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+16a34e8e2ed54ca431647b176479af1ec6f7b6fa")]
 [assembly: System.Reflection.AssemblyProductAttribute("demonOnionArchitecture.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("demonOnionArchitecture.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
